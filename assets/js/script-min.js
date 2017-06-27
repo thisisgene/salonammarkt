@@ -1,0 +1,1 @@
+var scrollTop;$(window).scroll(function(){scrollTop=$(this).scrollTop(),scrollTop>=$(".home-wrapper").offset().top&&$("section#home").addClass("minified"),scrollTop<300&&$("section#home").removeClass("minified")});

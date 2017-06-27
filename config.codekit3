@@ -208,6 +208,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/script-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/script.js": {
 		"ft": 64,
 		"mi": 1,

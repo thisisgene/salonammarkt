@@ -6,6 +6,8 @@ section#home
   justify-content: center
   align-items: center
 
+
+
   .home-wrapper
     display: flex
     flex-direction: column
@@ -17,9 +19,11 @@ section#home
       width: 80vw
       margin: 0 auto
 
+
     .menu-wrapper
       display: flex
       flex-direction: row
+
 
       ul
         display: flex
@@ -52,3 +56,23 @@ section#home
 
             &:hover
               color: #333
+
+  &.minified
+
+
+    .home-wrapper
+      top: 0
+      flex-direction: row
+      justify-content: space-between
+      position: fixed
+      width: 100%
+
+      background: rgba(white, .8)
+      border-bottom: 1px solid rgba(#aaa, .2)
+
+      .logo
+        width: 20vw
+        margin: 0 4rem
+        display: flex
+        align-items: flex-start
+        justify-content: center
