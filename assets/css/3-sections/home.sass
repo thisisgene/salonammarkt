@@ -1,0 +1,54 @@
+section#home
+  background: white
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  .home-wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+
+    .logo
+      width: 80vw
+      margin: 0 auto
+
+    .menu-wrapper
+      display: flex
+      flex-direction: row
+
+      ul
+        display: flex
+        flex-direction: row
+        list-style: none
+
+        li
+          text-transform: uppercase
+
+          &.li-sep
+            margin: 0 .2rem
+
+          &.li-item
+            margin: 0 1rem
+
+          &.li-booking
+
+            a
+              color: #fff
+              background: #67C6B9
+              padding: .2rem .4rem
+              border-radius: 6px
+
+              &:hover
+                box-shadow: 0 2px 2px rgba(black, .7)
+
+          a
+            text-decoration: none
+            color: #838383
+
+            &:hover
+              color: #333
