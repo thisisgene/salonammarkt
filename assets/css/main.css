@@ -23,6 +23,8 @@ section#home {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  section#home .mobile-menu {
+    display: none; }
   section#home .home-wrapper {
     display: flex;
     flex-direction: column;
@@ -56,6 +58,29 @@ section#home {
             color: #838383; }
             section#home .home-wrapper .menu-wrapper ul li a:hover {
               color: #333; }
+      @media (max-width: 920px) {
+        section#home .home-wrapper .menu-wrapper {
+          flex-direction: column; }
+          section#home .home-wrapper .menu-wrapper ul {
+            flex-direction: column;
+            padding: 0;
+            text-align: center;
+            justify-content: center; }
+            section#home .home-wrapper .menu-wrapper ul.lang-menu {
+              flex-direction: row;
+              text-align: center; } }
+  @media (max-width: 920px) {
+    section#home.minified .home-wrapper {
+      display: none; }
+    section#home.minified .mobile-menu {
+      display: flex;
+      position: fixed;
+      top: 0;
+      background: rgba(255, 255, 255, 0.95);
+      width: 100vw;
+      height: 40px; }
+      section#home.minified .mobile-menu p {
+        margin: 0; } }
   section#home.minified .home-wrapper {
     top: 0;
     flex-direction: row;

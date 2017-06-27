@@ -6,7 +6,8 @@ section#home
   justify-content: center
   align-items: center
 
-
+  .mobile-menu
+    display: none
 
   .home-wrapper
     display: flex
@@ -23,6 +24,7 @@ section#home
     .menu-wrapper
       display: flex
       flex-direction: row
+
 
 
       ul
@@ -57,6 +59,36 @@ section#home
             &:hover
               color: #333
 
+      @media(max-width: 920px)
+        flex-direction: column
+
+        ul
+          flex-direction: column
+          padding: 0
+          text-align: center
+          justify-content: center
+
+
+          &.lang-menu
+            flex-direction: row
+            text-align: center
+
+
+  @media(max-width: 920px)
+    &.minified
+      .home-wrapper
+        display: none
+
+      .mobile-menu
+        display: flex
+        position: fixed
+        top: 0
+        background: rgba(white, .95)
+        width: 100vw
+        height: 40px
+
+        p
+          margin: 0
   &.minified
 
 
