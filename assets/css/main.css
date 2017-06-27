@@ -59,3 +59,7 @@ section#home {
       display: flex;
       align-items: flex-start;
       justify-content: center; }
+
+section#gallery {
+  height: 100vh;
+  background: #FFEDFC; }
