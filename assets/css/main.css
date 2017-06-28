@@ -191,6 +191,17 @@ section#service {
           section#service .service-container .service-wrapper ul li p {
             margin: 0;
             line-height: 1.2rem; }
+  @media (max-width: 800px) {
+    section#service {
+      width: 90%;
+      margin: 0 auto; }
+      section#service .service-container {
+        display: block; }
+        section#service .service-container .service-wrapper {
+          margin: 0 auto;
+          text-align: center; }
+          section#service .service-container .service-wrapper__left {
+            border-right: none; } }
 
 section#contact {
   height: 100vh;
