@@ -53,6 +53,46 @@
 		"oF": 1,
 		"oS": 0
 		},
+	"\/_includes\/en\/contact.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/en\/contact.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_includes\/en\/gallery.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/en\/gallery.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_includes\/en\/head.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/en\/head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_includes\/en\/home.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/en\/home.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_includes\/en\/service.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/en\/service.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_includes\/gallery.pug": {
 		"cOD": 1,
 		"ft": 512,
@@ -277,6 +317,20 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/en\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/en\/index.html",
+		"oF": 0
+		},
+	"\/en\/index.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/en\/index.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/index.html": {
 		"ft": 8192,

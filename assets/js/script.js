@@ -1,16 +1,34 @@
 var scrollTop;
+var currentTop;
+var lastScrollTop = 0;
+var scrollDirection;
 
 $(window).scroll( function () {
+
+
+
   scrollTop = $(this).scrollTop();
+
+
+  if (scrollTop > lastScrollTop){
+    scrollDirection = 'down';
+  } else {
+    scrollDirection = 'up';
+  }
+  lastScrollTop = scrollTop;
   //
   // $('.logo').css({
   //   'transform': 'translate(-' + scrollTop / 20 + '%, 0px), scale(1 - ' + scrollTop / 20 + ')'
   // });
 
-  if (scrollTop >= $('.home-wrapper').offset().top) {
-    $('section#home').addClass('minified');
+  if (scrollTop > $('.home-wrapper').offset().top && scrollDirection === 'down') {
+    if (!$('section#home').hasClass('minified')) {
+      $('section#home').addClass('minified');
+      currentTop = scrollTop;
+    }
+
   }
-  if (scrollTop < 300) {
+  if (scrollTop < currentTop) {
     $('section#home').removeClass('minified');
   }
 });
