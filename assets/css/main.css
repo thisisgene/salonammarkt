@@ -69,6 +69,8 @@ section#home {
             section#home .home-wrapper .menu-wrapper ul li a.active {
               text-decoration: underline;
               color: #333; }
+            section#home .home-wrapper .menu-wrapper ul li a.link--active {
+              color: pink; }
       @media (max-width: 920px) {
         section#home .home-wrapper .menu-wrapper {
           flex-direction: column; }

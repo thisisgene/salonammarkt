@@ -2,6 +2,7 @@ var scrollTop;
 var currentTop;
 var lastScrollTop = 0;
 var scrollDirection;
+var clickToActivate;
 
 $(window).scroll( function () {
 
@@ -50,7 +51,7 @@ $.mark = {
       var offset = $(target).offset().top;
       $('.link--active').removeClass('link--active');
       jumpobj.addClass('link--active');
-      // clickToActivate = true;
+      clickToActivate = true;
 
       $('html,body').animate({
         scrollTop: offset
@@ -61,8 +62,27 @@ $.mark = {
     });
   }
 };
-
+//
+// function makeLinksActive() {
+//   // var wScroll = $(window).scrollTop();
+//   var scrollPos = $(window).scrollTop();
+//   $('.link-menu li a').each(function () {
+//     var currLink = $(this);
+//     var refElement = $(currLink.attr("href"));
+//     console.log(refElement);
+//     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.outerHeight- 10 > scrollPos && clickToActivate !== true) {
+//       // console.log(clickToActivate);
+//       $('.link-menu li a').removeClass("link--active");
+//       currLink.addClass("link--active");
+//       console.log('ohla');
+//     }
+//     else if (clickToActivate !== true){
+//       currLink.removeClass("link--active");
+//     }
+//   });
+// }
 
 $(document).ready(function() {
   $.mark.jump();
+  // makeLinksActive();
 });
