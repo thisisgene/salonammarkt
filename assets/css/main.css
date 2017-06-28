@@ -73,6 +73,7 @@ section#home {
     section#home.minified .home-wrapper {
       display: none; }
     section#home.minified .mobile-menu {
+      z-index: 100;
       display: flex;
       position: fixed;
       top: 0;
@@ -82,6 +83,7 @@ section#home {
       section#home.minified .mobile-menu p {
         margin: 0; } }
   section#home.minified .home-wrapper {
+    z-index: 100;
     top: 0;
     flex-direction: row;
     justify-content: space-between;
@@ -98,9 +100,61 @@ section#home {
 
 section#gallery {
   height: 100vh;
-  background-image: url("/assets/img/hair-salon-inside.jpg");
-  background-attachment: fixed;
-  background-size: cover; }
+  position: relative; }
+  section#gallery .gallery-list, section#gallery .gallery-list:after {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%; }
+  section#gallery .gallery-list li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 18s linear infinite 0s; }
+  section#gallery .gallery-list li div {
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    animation: titleAnimation 18s linear infinite 0s; }
+  section#gallery .gallery-list li:nth-child(1) span {
+    background-image: url("/assets/img/salon1.jpg"); }
+  section#gallery .gallery-list li:nth-child(2) span {
+    background-image: url("/assets/img/salon2.jpg");
+    animation-delay: 6s; }
+  section#gallery .gallery-list li:nth-child(3) span {
+    background-image: url("/assets/img/salon3.jpg");
+    animation-delay: 12s; }
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in; }
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out; }
+  25% {
+    opacity: 1; }
+  40% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
 
 section#service {
   width: 100%;
