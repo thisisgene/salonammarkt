@@ -27,7 +27,7 @@ section#home
         display: flex
         justify-content: center
         img
-          width: 100%
+          width: 90%
           transition: all 200ms ease-in-out
 
 
@@ -98,17 +98,23 @@ section#home
     &.minified
       .home-wrapper
         background: rgba(white, .8)
-        //width: 100vw
+        width: 90vw
         //height: 40px
         z-index: 100
+        //align-items: flex-start
 
         .logo
           position: fixed
+          text-align: center
           top: 0
+          left: 0
+          width: 100%
           background: rgba(white, .8)
+          align-self: flex-start
 
           img
             margin: .3rem auto
+            width: 90%
 
 
   @media(min-width: 921px)
@@ -118,6 +124,7 @@ section#home
       .home-wrapper
         z-index: 100
         top: 0
+        left: 0
         flex-direction: row
         justify-content: space-between
         position: fixed
@@ -132,3 +139,6 @@ section#home
           display: flex
           align-items: flex-start
           justify-content: center
+
+          img
+            width: 100%
