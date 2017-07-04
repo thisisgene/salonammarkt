@@ -50,6 +50,7 @@ section#home {
           justify-content: center; }
           section#home .home-wrapper .logo img {
             width: 90%;
+            height: 10vw;
             transition: all 200ms ease-in-out; } }
     section#home .home-wrapper .menu-wrapper {
       display: flex;
@@ -97,7 +98,6 @@ section#home {
   @media (max-width: 920px) {
     section#home.minified .home-wrapper {
       background: rgba(255, 255, 255, 0.8);
-      width: 90vw;
       z-index: 100; }
       section#home.minified .home-wrapper .logo {
         position: fixed;
@@ -108,8 +108,10 @@ section#home {
         background: rgba(255, 255, 255, 0.8);
         align-self: flex-start; }
         section#home.minified .home-wrapper .logo img {
-          margin: .3rem auto;
-          width: 90%; } }
+          margin: .3rem 0;
+          box-sizing: border-box;
+          width: 90%;
+          height: 10vw; } }
   @media (min-width: 921px) {
     section#home.minified .home-wrapper {
       z-index: 100;

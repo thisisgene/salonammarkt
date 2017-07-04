@@ -28,6 +28,7 @@ section#home
         justify-content: center
         img
           width: 90%
+          height: 10vw
           transition: all 200ms ease-in-out
 
 
@@ -98,7 +99,7 @@ section#home
     &.minified
       .home-wrapper
         background: rgba(white, .8)
-        width: 90vw
+        //width: 90vw
         //height: 40px
         z-index: 100
         //align-items: flex-start
@@ -113,8 +114,10 @@ section#home
           align-self: flex-start
 
           img
-            margin: .3rem auto
+            margin: .3rem 0
+            box-sizing: border-box
             width: 90%
+            height: 10vw
 
 
   @media(min-width: 921px)
