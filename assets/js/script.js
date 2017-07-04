@@ -86,3 +86,17 @@ $(document).ready(function() {
   $.mark.jump();
   // makeLinksActive();
 });
+
+function initMap() {
+  var salonammarkt = {lat: 48.2172205, lng: 16.3779313};
+  console.log('ashfg');
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: salonammarkt,
+    scrollwheel: false
+  });
+  var marker = new google.maps.Marker({
+    position: salonammarkt,
+    map: map
+  });
+}

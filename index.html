@@ -135,32 +135,20 @@
   </div>
   <div class="map-container">
     <div id="map"></div>
-    <!--.overlay(onClick="style.pointerEvents='none'")-->
-    <!--iframe(id= "map-canvas", src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.4493987128562!2d16.375742615937497!3d48.21722047923001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07a66229458b%3A0x81b31ee3cfa7949!2sTandelmarktgasse+1%2C+1020+Wien!5e0!3m2!1sen!2sat!4v1499173488751", frameborder="0", style="border:0", allowfullscreen).map-->
-    <!---->
     <!--script.-->
-    <!--  var map = new google.maps.Map(document.getElementById('map-canvas'), {-->
-    <!---->
-    <!--    zoom: 7,-->
-    <!--    center: new google.maps.LatLng(originalLocation[0], originalLocation[1]),-->
-    <!--    scrollwheel: false-->
-    <!---->
-    <!--  });-->
-    <script>
-      function initMap() {
-        var salonammarkt = {lat: 48.2172205, lng: 16.3779313};
-        console.log('ashfg');
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: salonammarkt,
-          scrollwheel: false
-        });
-        var marker = new google.maps.Marker({
-          position: salonammarkt,
-          map: map
-        });
-      }
-    </script>
+    <!--  function initMap() {-->
+    <!--    var salonammarkt = {lat: 48.2172205, lng: 16.3779313};-->
+    <!--    console.log('ashfg');-->
+    <!--    var map = new google.maps.Map(document.getElementById('map'), {-->
+    <!--      zoom: 16,-->
+    <!--      center: salonammarkt,-->
+    <!--      scrollwheel: false-->
+    <!--    });-->
+    <!--    var marker = new google.maps.Marker({-->
+    <!--      position: salonammarkt,-->
+    <!--      map: map-->
+    <!--    });-->
+    <!--  }-->
     <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ6aLnqoI68taILE3qKVivT48lSffCSjo&amp;callback=initMap"></script>
   </div>
 </section>
