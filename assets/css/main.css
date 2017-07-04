@@ -228,14 +228,19 @@ section#service {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    width: 440px;
+    margin: 0 auto; }
     section#service .service-container .service-wrapper {
       width: 220px; }
       section#service .service-container .service-wrapper__left {
         text-align: left;
-        border-right: 1px solid rgba(170, 170, 170, 0.2); }
+        border-right: 1px solid rgba(170, 170, 170, 0.2);
+        width: 45%; }
       section#service .service-container .service-wrapper__right {
-        text-align: right; }
+        text-align: right;
+        width: 55%;
+        padding-left: 2rem; }
       section#service .service-container .service-wrapper ul {
         list-style: none;
         padding: 0; }
@@ -275,7 +280,7 @@ section#contact {
     height: 0;
     border: 1px solid #ccc;
     box-sizing: border-box; }
-    section#contact .map-container .map {
+    section#contact .map-container #map {
       left: 0;
       top: 0;
       height: 100%;
