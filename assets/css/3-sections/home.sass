@@ -43,6 +43,9 @@ section#home
         flex-direction: row
         list-style: none
 
+        &.lang-menu
+          margin-right: 3rem
+
         li
           text-transform: uppercase
 
@@ -60,11 +63,14 @@ section#home
             a
               color: #fff
               background: #67C6B9
-              padding: .2rem .4rem
+              padding: .4rem .6rem
               border-radius: 6px
+              box-shadow: 0 1px 0 rgba(black, .4)
 
               &:hover
-                box-shadow: 0 2px 2px rgba(black, .7)
+                box-shadow: 0 1px 0 rgba(black, .6)
+                color: #fff
+                background: lighten(#67C6B9, .5%)
 
           a
             text-decoration: none
@@ -89,6 +95,8 @@ section#home
           justify-content: center
           font-size: 1.3rem
 
+          .li-booking
+            margin-top: .8rem !important
 
           &.lang-menu
             flex-direction: row
@@ -145,3 +153,9 @@ section#home
 
           img
             width: 100%
+
+
+  .schedule-container
+    position: fixed
+    width: 80vw
+    border: 1px solid #aaa
