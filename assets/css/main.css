@@ -149,14 +149,14 @@ section#home {
     section#home.dir-change .home-wrapper {
       flex-direction: row;
       justify-content: space-between;
-      position: fixed; }
+      position: fixed;
+      background: rgba(255, 255, 255, 0.8);
+      border-bottom: 1px solid rgba(170, 170, 170, 0.2); }
     section#home.minified .home-wrapper {
       z-index: 100;
       top: 0;
       left: 0;
       width: 100%;
-      background: rgba(255, 255, 255, 0.8);
-      border-bottom: 1px solid rgba(170, 170, 170, 0.2);
       animation: minify 600ms ease-in-out; }
       section#home.minified .home-wrapper .logo {
         width: 20vw;
