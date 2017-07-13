@@ -16,10 +16,14 @@ section#home
     justify-content: center
     align-items: center
 
+    transition: all 200ms ease-in-out
+
 
     .logo
       width: 80vw
       margin: 0 auto
+
+      transition: all 200ms ease-in-out
 
       @media(max-width: 920px)
         width: 100vw
@@ -103,6 +107,21 @@ section#home
             text-align: center
             margin: 3rem auto 0 auto
 
+  @keyframes minify
+    0%
+      opacity: 1
+      transform: translateY(0px)
+    40%
+      //opacity: 0
+      transform: translateY(-200px)
+
+    100%
+      opacity: 1
+      transform: translateY(0px)
+      flex-direction: row
+
+
+
   @media(max-width: 920px)
     &.minified
       .home-wrapper
@@ -121,6 +140,7 @@ section#home
           background: rgba(white, .8)
           align-self: flex-start
 
+
           img
             margin: .3rem 0
             box-sizing: border-box
@@ -129,6 +149,12 @@ section#home
 
 
   @media(min-width: 921px)
+    &.dir-change
+      .home-wrapper
+        flex-direction: row
+        justify-content: space-between
+        position: fixed
+
     &.minified
 
 
@@ -136,13 +162,14 @@ section#home
         z-index: 100
         top: 0
         left: 0
-        flex-direction: row
-        justify-content: space-between
-        position: fixed
+
         width: 100%
 
         background: rgba(white, .8)
         border-bottom: 1px solid rgba(#aaa, .2)
+
+        animation: minify 600ms ease-in-out
+
 
         .logo
           width: 20vw
@@ -150,6 +177,9 @@ section#home
           display: flex
           align-items: flex-start
           justify-content: center
+
+
+
 
           img
             width: 100%

@@ -25,12 +25,16 @@ $(window).scroll( function () {
   if (scrollTop > $('.home-wrapper').offset().top && scrollDirection === 'down') {
     if (!$('section#home').hasClass('minified')) {
       $('section#home').addClass('minified');
+      setTimeout(function() {
+        $('section#home').addClass('dir-change');
+
+      }, 200);
       currentTop = scrollTop;
     }
 
   }
   if (scrollTop < currentTop) {
-    $('section#home').removeClass('minified');
+    $('section#home').removeClass('minified dir-change');
   }
 });
 
