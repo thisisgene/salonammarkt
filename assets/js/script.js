@@ -6,7 +6,7 @@ var clickToActivate;
 
 $(window).scroll( function () {
 
-
+  console.log(currentTop);
 
   scrollTop = $(this).scrollTop();
 
@@ -86,9 +86,15 @@ $.mark = {
 //   });
 // }
 
+$(window).on('beforeunload', function() {
+  $(window).scrollTop(0);
+});
+
 $(document).ready(function() {
+  $(this).scrollTop(0);
   $.mark.jump();
   // makeLinksActive();
+  // currentTop = 300;
 });
 
 function initMap() {
