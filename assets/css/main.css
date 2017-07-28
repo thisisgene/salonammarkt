@@ -28,6 +28,9 @@ a {
 section {
   padding: 60px 0;
   box-sizing: border-box; }
+  @media (max-width: 980px) and (orientation: landscape) {
+    section {
+      padding: 0; } }
 
 .no-select {
   -webkit-user-select: none;
@@ -115,11 +118,17 @@ section#home {
             justify-content: center;
             font-size: 1.3rem; }
             section#home .home-wrapper .menu-wrapper ul .li-booking {
-              margin-top: .8rem !important; }
+              margin-top: .8rem !important;
+              margin-left: 0 !important; }
             section#home .home-wrapper .menu-wrapper ul.lang-menu {
               flex-direction: row;
               text-align: center;
               margin: 0 auto; } }
+      @media (max-width: 980px) and (orientation: landscape) {
+        section#home .home-wrapper .menu-wrapper {
+          margin-top: 1.5rem; }
+          section#home .home-wrapper .menu-wrapper .link-menu {
+            margin: 0 0 .5rem; } }
 
 @keyframes minify {
   0% {
@@ -190,7 +199,7 @@ section#home {
       display: block;
       width: 30px;
       height: 30px;
-      border: 2px solid black;
+      border: 2px dotted rgba(0, 0, 0, 0.3);
       border-radius: 50%;
       opacity: .7; }
       @media (min-width: 981px) {
@@ -198,7 +207,8 @@ section#home {
           transition: all 200ms ease-in-out;
           opacity: .5; }
           .social-wrapper ul li .icon:hover {
-            opacity: 1; } }
+            border: 2px solid black;
+            opacity: .8; } }
 
 section#gallery {
   height: 100vh;
@@ -224,18 +234,9 @@ section#gallery {
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 18s linear infinite 0s; }
-  section#gallery .gallery-list li div {
-    z-index: 10;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    animation: titleAnimation 18s linear infinite 0s; }
+    transition: opacity 1000ms ease-in-out; }
   section#gallery .gallery-list li:nth-child(1) span {
+    opacity: 1;
     background-image: url("../img/salon1.jpg"); }
   section#gallery .gallery-list li:nth-child(2) span {
     background-image: url("../img/salon2.jpg");
@@ -243,20 +244,23 @@ section#gallery {
   section#gallery .gallery-list li:nth-child(3) span {
     background-image: url("../img/salon3.jpg");
     animation-delay: 12s; }
-
-@keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    animation-timing-function: ease-in; }
-  8% {
-    opacity: 1;
-    animation-timing-function: ease-out; }
-  25% {
-    opacity: 1; }
-  40% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+  section#gallery .gallery-controls {
+    height: 100%;
+    z-index: 100;
+    position: relative;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section#gallery .gallery-controls .arrow {
+      height: 40px;
+      cursor: pointer;
+      opacity: .5; }
+      section#gallery .gallery-controls .arrow:hover {
+        opacity: 1; }
+    @media (max-width: 980px) {
+      section#gallery .gallery-controls {
+        display: none; } }
 
 section#service {
   width: 100%;

@@ -4,6 +4,12 @@ var lastScrollTop = 0;
 var scrollDirection;
 var clickToActivate;
 
+var imgCount = 3;
+var currentSlide;
+var slideInterval = 3000;
+var stopShow = false;
+var passedTime = 0;
+
 $(window).scroll( function () {
 
   console.log(currentTop);
@@ -86,6 +92,63 @@ $.mark = {
 //   });
 // }
 
+
+function slideShow(startCount) {
+
+
+
+  if (stopShow) {
+    // stopShow = false;
+    return;
+  }
+
+  currentSlide = startCount;
+  $('.active-slide').removeClass('active-slide').css('opacity', '0');
+  $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
+
+
+  setTimeout(function() {
+
+    if (startCount < imgCount) {
+      slideShow(startCount+1);
+    }
+    else {
+      slideShow(1);
+
+    }
+  }, slideInterval);
+
+
+}
+
+function changeSlide(direction) {
+  console.log('stoop');
+  stopShow = true;
+  // var nextSlide;
+  if (direction === 'next') {
+    if (currentSlide < imgCount) {
+      currentSlide = currentSlide + 1;
+    }
+    else {currentSlide = 1}
+    $('.active-slide').removeClass('active-slide').css('opacity', '0');
+    $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
+    // slideShow(currentSlide);
+  }
+  if (direction === 'back') {
+    if (currentSlide > 1) {
+      currentSlide = currentSlide - 1;
+      console.log(currentSlide, ', gr 1');
+    }
+    else {currentSlide = imgCount; console.log('one!');}
+    $('.active-slide').removeClass('active-slide').css('opacity', '0');
+    $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
+    // slideShow(currentSlide - 1);
+  }
+
+
+
+}
+
 $(window).on('beforeunload', function() {
   $(window).scrollTop(0);
 });
@@ -95,6 +158,10 @@ $(document).ready(function() {
   $.mark.jump();
   // makeLinksActive();
   // currentTop = 300;
+
+  // slideShow(1);
+
+
 });
 
 function initMap() {
@@ -110,3 +177,13 @@ function initMap() {
     map: map
   });
 }
+
+$(document).on('pageinit', function(event) {
+  $("#gallery").on('swipeleft', function () {
+    console.log('leftttt');
+    changeSlide('next');
+  });
+  $(".gallery-list li span").on('swiperight', function () {
+    changeSlide('back');
+  });
+});

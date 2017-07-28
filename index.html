@@ -13,8 +13,10 @@
   <!-- Custom CSS-->
   <link rel="stylesheet" href="assets/css/main.css"/>
   <!-- javascript-->
-  <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
   <!--// Piwik-->
   <!--script(type='text/javascript').-->
   <!--  var _paq = _paq || [];-->
@@ -58,12 +60,44 @@
     </div>
   </div>
 </section>
+<script>
+  $(function(){
+    $("#slides").slidesjs({
+      width: 940,
+      height: 528,
+  
+      play: {
+        active: false,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+        effect: "fade",
+        // [string] Can be either "slide" or "fade".
+        interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+        auto: true,
+        // [boolean] Start playing the slideshow on load.
+        swap: false,
+        // [boolean] show/hide stop and play buttons
+        pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+        restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+      }
+    });
+  });
+  
+</script>
 <section id="gallery">
+  <!--#slides-->
+  <!--  img(src='/assets/img/salon1.jpg')-->
+  <!--  img(src='/assets/img/salon2.jpg')-->
+  <!--  img(src='/assets/img/salon3.jpg')-->
   <ul class="gallery-list">
-    <li><span></span></li>
-    <li><span></span></li>
-    <li><span></span></li>
+    <li><span class="slide"></span></li>
+    <li><span class="slide"></span></li>
+    <li><span class="slide"></span></li>
   </ul>
+  <div class="gallery-controls"><span onclick="changeSlide('back')"><img class="arrow" src="/assets/img/icon_left.svg"/></span><span onclick="changeSlide('next')"><img class="arrow" src="/assets/img/icon_right.svg"/></span></div>
 </section>
 <section id="service">
   <h1 class="sub-title">SERVICE</h1>
