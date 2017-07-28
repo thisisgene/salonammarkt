@@ -272,26 +272,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/icons.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/icons.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/img\/IMG_1087.JPG": {
-		"ft": 16384,
-		"iS": 95805,
-		"oA": 0,
-		"oAP": "\/assets\/img\/IMG_1087.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/assets\/img\/logo_main.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -342,12 +322,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/assets\/img\/salon_am_markt_flyerA3_1.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/img\/salon_am_markt_flyerA3_1.pdf",
-		"oF": 0
 		},
 	"\/assets\/js\/jquery-3.2.1.min.js": {
 		"ft": 64,
