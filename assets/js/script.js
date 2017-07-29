@@ -5,10 +5,12 @@ var scrollDirection;
 var clickToActivate;
 
 var imgCount = 3;
-var currentSlide;
+var currentSlide = 1;
 var slideInterval = 3000;
 var stopShow = false;
 var passedTime = 0;
+var setStop;
+
 
 $(window).scroll( function () {
 
@@ -97,33 +99,47 @@ function slideShow(startCount) {
 
 
 
-  if (stopShow) {
-    // stopShow = false;
-    return;
-  }
 
   currentSlide = startCount;
   $('.active-slide').removeClass('active-slide').css('opacity', '0');
   $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
 
 
-  setTimeout(function() {
-
-    if (startCount < imgCount) {
-      slideShow(startCount+1);
-    }
-    else {
-      slideShow(1);
-
-    }
-  }, slideInterval);
-
+  // setTimeout(function() {
+  //
+  //   if (startCount < imgCount) {
+  //     slideShow(startCount+1);
+  //   }
+  //   else {
+  //     slideShow(1);
+  //
+  //   }
+  // }, slideInterval);
 
 }
 
+function slideLoop() {
+  setInterval(function() {
+    if (stopShow) {
+      console.log('stop');
+    }
+    else {
+      if (currentSlide < imgCount) {
+        currentSlide ++;
+      }
+      else {
+        currentSlide = 1;
+      }
+      console.log(currentSlide);
+      slideShow(currentSlide);
+    }
+  }, 3000)
+}
+
 function changeSlide(direction) {
-  console.log('stoop');
   stopShow = true;
+  stopStop = false;
+  clearTimeout(setStop);
   // var nextSlide;
   if (direction === 'next') {
     if (currentSlide < imgCount) {
@@ -137,7 +153,6 @@ function changeSlide(direction) {
   if (direction === 'back') {
     if (currentSlide > 1) {
       currentSlide = currentSlide - 1;
-      console.log(currentSlide, ', gr 1');
     }
     else {currentSlide = imgCount; console.log('one!');}
     $('.active-slide').removeClass('active-slide').css('opacity', '0');
@@ -145,7 +160,10 @@ function changeSlide(direction) {
     // slideShow(currentSlide - 1);
   }
 
-
+  setStop = setTimeout(function() {
+    stopShow = false;
+    console.log('is false');
+  }, 10000);
 
 }
 
@@ -161,6 +179,7 @@ $(document).ready(function() {
 
   // slideShow(1);
 
+  slideLoop();
 
 });
 
