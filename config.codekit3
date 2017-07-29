@@ -343,11 +343,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/js\/jquery-3.2.1.min.js": {
+	"\/assets\/js\/jquery-1.9.1.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-3.2.1.min-min.js",
+		"oAP": "\/assets\/js\/jquery-1.9.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
