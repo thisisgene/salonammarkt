@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/gallery.pug" afterPath="$PROJECT_DIR$/_includes/en/gallery.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/head.pug" afterPath="$PROJECT_DIR$/_includes/en/head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/home.pug" afterPath="$PROJECT_DIR$/_includes/en/home.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/gallery.pug" afterPath="$PROJECT_DIR$/_includes/gallery.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home.pug" afterPath="$PROJECT_DIR$/_includes/home.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.pug" afterPath="$PROJECT_DIR$/_includes/head.pug" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="102" />
+            <state relative-caret-position="342">
+              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -104,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
-              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -157,7 +151,6 @@
         <option value="$PROJECT_DIR$/assets/css/3-sections/contact.sass" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/assets/img/icons.svg" />
-        <option value="$PROJECT_DIR$/_includes/head.pug" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/home.sass" />
         <option value="$PROJECT_DIR$/assets/css/1-base/main.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" />
@@ -167,6 +160,7 @@
         <option value="$PROJECT_DIR$/_includes/home.pug" />
         <option value="$PROJECT_DIR$/_includes/en/head.pug" />
         <option value="$PROJECT_DIR$/_includes/en/home.pug" />
+        <option value="$PROJECT_DIR$/_includes/head.pug" />
       </list>
     </option>
   </component>
@@ -489,12 +483,12 @@
       <workItem from="1499170859086" duration="2796000" />
       <workItem from="1499174989177" duration="10322000" />
       <workItem from="1499776830176" duration="1195000" />
-      <workItem from="1499941966374" duration="36565000" />
+      <workItem from="1499941966374" duration="37067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75912000" />
+    <option name="totallyTimeSpent" value="76414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
@@ -852,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -879,7 +865,15 @@
     <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <caret line="30" column="81" lean-forward="true" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
