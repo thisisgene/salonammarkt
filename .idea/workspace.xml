@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/gallery.pug" afterPath="$PROJECT_DIR$/_includes/en/gallery.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/head.pug" afterPath="$PROJECT_DIR$/_includes/en/head.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/home.pug" afterPath="$PROJECT_DIR$/_includes/en/home.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/gallery.pug" afterPath="$PROJECT_DIR$/_includes/gallery.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/1-base/main.sass" afterPath="$PROJECT_DIR$/assets/css/1-base/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script-min.js" afterPath="$PROJECT_DIR$/assets/js/script-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home.pug" afterPath="$PROJECT_DIR$/_includes/home.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.pug">
+      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="323">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,18 @@
       <file leaf-file-name="gallery.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/gallery.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/en/gallery.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -77,14 +87,14 @@
       <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+            <state relative-caret-position="285">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
@@ -94,12 +104,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/home.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="437">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -127,27 +146,27 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/service.pug" />
         <option value="$PROJECT_DIR$/_includes/en/service.pug" />
-        <option value="$PROJECT_DIR$/_includes/en/gallery.pug" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/_includes/impressum.pug" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/impressum.sass" />
         <option value="$PROJECT_DIR$/en/index.pug" />
         <option value="$PROJECT_DIR$/_includes/en/impressum.pug" />
-        <option value="$PROJECT_DIR$/_includes/en/home.pug" />
         <option value="$PROJECT_DIR$/_includes/en/contact.pug" />
         <option value="$PROJECT_DIR$/_includes/contact.pug" />
-        <option value="$PROJECT_DIR$/_includes/en/head.pug" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/service.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/contact.sass" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/assets/img/icons.svg" />
-        <option value="$PROJECT_DIR$/_includes/home.pug" />
         <option value="$PROJECT_DIR$/_includes/head.pug" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/home.sass" />
-        <option value="$PROJECT_DIR$/_includes/gallery.pug" />
         <option value="$PROJECT_DIR$/assets/css/1-base/main.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/_includes/gallery.pug" />
+        <option value="$PROJECT_DIR$/_includes/en/gallery.pug" />
+        <option value="$PROJECT_DIR$/_includes/home.pug" />
+        <option value="$PROJECT_DIR$/_includes/en/head.pug" />
+        <option value="$PROJECT_DIR$/_includes/en/home.pug" />
       </list>
     </option>
   </component>
@@ -470,12 +489,12 @@
       <workItem from="1499170859086" duration="2796000" />
       <workItem from="1499174989177" duration="10322000" />
       <workItem from="1499776830176" duration="1195000" />
-      <workItem from="1499941966374" duration="36119000" />
+      <workItem from="1499941966374" duration="36565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75466000" />
+    <option name="totallyTimeSpent" value="75912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
@@ -655,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/en/gallery.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -697,26 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="95" lean-forward="false" selection-start-line="23" selection-start-column="95" selection-end-line="23" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/contact.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -785,15 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/home.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/salon3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -809,14 +796,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -829,14 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-640">
           <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/gallery.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="46" column="62" lean-forward="false" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -861,6 +832,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="165" column="7" lean-forward="false" selection-start-line="165" selection-start-column="7" selection-end-line="165" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/gallery.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/en/gallery.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/home.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="30" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>

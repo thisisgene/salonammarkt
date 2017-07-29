@@ -1,11 +1,14 @@
 section#gallery
   ul.gallery-list
     li
-      span
-
+      span.slide
     li
-      span
-
+      span.slide
     li
-      span
+      span.slide
 
+  .gallery-controls
+    span(onclick="changeSlide('back')")
+      img(src='/assets/img/icon_left.svg').arrow.arrow__left
+    span(onclick="changeSlide('next')")
+      img(src='/assets/img/icon_right.svg').arrow.arrow__right
