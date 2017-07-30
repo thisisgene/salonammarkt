@@ -42,6 +42,9 @@ section {
   -webkit-text-size-adjust: none;
   -webkit-tap-highlight-color: transparent; }
 
+.ui-loader {
+  display: none !important; }
+
 section#home {
   background: white;
   height: 100vh;

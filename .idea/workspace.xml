@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/en/home.pug" afterPath="$PROJECT_DIR$/_includes/en/home.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.pug" afterPath="$PROJECT_DIR$/_includes/head.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home.pug" afterPath="$PROJECT_DIR$/_includes/home.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/1-base/main.sass" afterPath="$PROJECT_DIR$/assets/css/1-base/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/1-base/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="573">
+              <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -82,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -156,7 +151,6 @@
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/assets/img/icons.svg" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/home.sass" />
-        <option value="$PROJECT_DIR$/assets/css/1-base/main.sass" />
         <option value="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" />
         <option value="$PROJECT_DIR$/assets/js/script.js" />
         <option value="$PROJECT_DIR$/_includes/en/head.pug" />
@@ -165,6 +159,7 @@
         <option value="$PROJECT_DIR$/_includes/en/home.pug" />
         <option value="$PROJECT_DIR$/_includes/home.pug" />
         <option value="$PROJECT_DIR$/_includes/head.pug" />
+        <option value="$PROJECT_DIR$/assets/css/1-base/main.sass" />
       </list>
     </option>
   </component>
@@ -176,8 +171,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -487,18 +482,18 @@
       <workItem from="1499170859086" duration="2796000" />
       <workItem from="1499174989177" duration="10322000" />
       <workItem from="1499776830176" duration="1195000" />
-      <workItem from="1499941966374" duration="39219000" />
+      <workItem from="1499941966374" duration="39833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78566000" />
+    <option name="totallyTimeSpent" value="79180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25065824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37807783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -810,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/1-base/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
@@ -878,6 +865,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/1-base/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding />
         </state>
       </provider>
