@@ -45,12 +45,34 @@
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
+	"\/_includes\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/about.html",
+		"oF": 0
+		},
+	"\/_includes\/about.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_includes\/about.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_includes\/contact.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/_includes\/contact.html",
 		"oF": 1,
+		"oS": 0
+		},
+	"\/_includes\/en\/about.pug": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/_includes\/en\/about.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"\/_includes\/en\/contact.pug": {
@@ -150,6 +172,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/1-base\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/3-sections\/about.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/3-sections\/about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -338,6 +373,16 @@
 		"iS": 418831,
 		"oA": 0,
 		"oAP": "\/assets\/img\/salon3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/staff-placeholder.jpg": {
+		"ft": 16384,
+		"iS": 7116,
+		"oA": 0,
+		"oAP": "\/assets\/img\/staff-placeholder.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

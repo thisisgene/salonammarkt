@@ -1,0 +1,41 @@
+section.about
+  //background: #34CCB4
+
+  .about-container
+    padding: 0 6rem
+    text-align: center
+    color: #888
+
+    .about-text
+      width: 60%
+      margin: 0 auto
+
+    .member-container
+      margin: 2rem auto 0
+      //width: 70vw
+      display: flex
+      flex-direction: row
+      justify-content: center
+
+
+      .member
+        margin: 0 2rem
+
+        h3
+          color: #333
+
+        .photo img
+          width: 200px
+
+    @media(max-width: 980px)
+      padding: 0 1rem
+
+      .about-text
+        width: 80%
+
+      .member-container
+        display: block
+
+    @media(max-width: 480px)
+      .about-text
+        width: 100%

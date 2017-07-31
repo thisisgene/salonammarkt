@@ -133,8 +133,9 @@ function slideLoop() {
       console.log(currentSlide);
       slideShow(currentSlide);
     }
-  }, 3000)
+  }, 3000);
 }
+
 
 function changeSlide(direction) {
   stopShow = true;
@@ -179,7 +180,7 @@ $(document).ready(function() {
 
   // slideShow(1);
 
-  slideLoop();
+  // slideLoop();
 
 });
 
@@ -197,12 +198,12 @@ function initMap() {
   });
 }
 
-$(document).on('pageinit', function(event) {
-  $("#gallery").on('swipeleft', function () {
-    console.log('leftttt');
-    changeSlide('next');
-  });
-  $(".gallery-list li span").on('swiperight', function () {
-    changeSlide('back');
-  });
-});
+// $(document).on('pageinit', function(event) {
+//   $("#gallery").on('swipeleft', function () {
+//     console.log('leftttt');
+//     changeSlide('next');
+//   });
+//   $(".gallery-list li span").on('swiperight', function () {
+//     changeSlide('back');
+//   });
+// });
