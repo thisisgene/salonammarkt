@@ -52,6 +52,9 @@ section#home {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 800px) and (orientation: landscape) {
+    section#home {
+      height: auto; } }
   section#home .mobile-menu {
     display: none; }
   section#home .home-wrapper {
@@ -127,11 +130,6 @@ section#home {
               flex-direction: row;
               text-align: center;
               margin: 0 auto; } }
-      @media (max-width: 980px) and (orientation: landscape) {
-        section#home .home-wrapper .menu-wrapper {
-          margin-top: 1.5rem; }
-          section#home .home-wrapper .menu-wrapper .link-menu {
-            margin: 0 0 .5rem; } }
 
 @keyframes minify {
   0% {
@@ -181,37 +179,42 @@ section#home {
       z-index: 100;
       top: 0;
       left: 0;
-      animation: minify 600ms ease-in-out; }
+      animation: minify 600ms ease-in-out; } }
+  @media (min-width: 981px) and (max-width: 1000px) and (min-width: 981px) {
+    section#home.minified .home-wrapper .logo {
+      margin: 0 3rem; } }
+  @media (min-width: 981px) {
       section#home.minified .home-wrapper .logo img {
         width: 100%; }
+      section#home.minified .home-wrapper .menu-wrapper {
+        margin-right: 1rem; }
       section#home.minified .home-wrapper .social-wrapper {
-        margin-right: .5rem; } }
+        display: none; } }
   section#home .schedule-container {
     position: fixed;
     width: 80vw;
     border: 1px solid #aaa; }
-
-.social-wrapper ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row; }
-  .social-wrapper ul li {
-    margin: 0 .5rem; }
-    .social-wrapper ul li .icon {
-      display: block;
-      width: 30px;
-      height: 30px;
-      border: 2px dotted rgba(0, 0, 0, 0.3);
-      border-radius: 50%;
-      opacity: .7; }
-      @media (min-width: 981px) {
-        .social-wrapper ul li .icon {
-          transition: all 200ms ease-in-out;
-          opacity: .5; }
-          .social-wrapper ul li .icon:hover {
-            border: 2px solid black;
-            opacity: .8; } }
+  section#home .social-wrapper ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
+    section#home .social-wrapper ul li {
+      margin: 0 .5rem; }
+      section#home .social-wrapper ul li .icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: 2px dotted rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        opacity: .7; }
+        @media (min-width: 981px) {
+          section#home .social-wrapper ul li .icon {
+            transition: all 200ms ease-in-out;
+            opacity: .5; }
+            section#home .social-wrapper ul li .icon:hover {
+              border: 2px solid black;
+              opacity: .8; } }
 
 section#gallery {
   height: 100vh;
@@ -280,33 +283,33 @@ section#gallery {
         opacity: 1;
         transform: translateX(0px); } }
 
-section.about .about-container {
+section#about .about-container {
   padding: 0 6rem;
   text-align: center;
   color: #888; }
-  section.about .about-container .about-text {
+  section#about .about-container .about-text {
     width: 60%;
     margin: 0 auto; }
-  section.about .about-container .member-container {
+  section#about .about-container .member-container {
     margin: 2rem auto 0;
     display: flex;
     flex-direction: row;
     justify-content: center; }
-    section.about .about-container .member-container .member {
+    section#about .about-container .member-container .member {
       margin: 0 2rem; }
-      section.about .about-container .member-container .member h3 {
+      section#about .about-container .member-container .member h3 {
         color: #333; }
-      section.about .about-container .member-container .member .photo img {
+      section#about .about-container .member-container .member .photo img {
         width: 200px; }
   @media (max-width: 980px) {
-    section.about .about-container {
+    section#about .about-container {
       padding: 0 1rem; }
-      section.about .about-container .about-text {
+      section#about .about-container .about-text {
         width: 80%; }
-      section.about .about-container .member-container {
+      section#about .about-container .member-container {
         display: block; } }
   @media (max-width: 480px) {
-    section.about .about-container .about-text {
+    section#about .about-container .about-text {
       width: 100%; } }
 
 section#service {

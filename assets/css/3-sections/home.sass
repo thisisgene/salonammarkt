@@ -6,6 +6,9 @@ section#home
   justify-content: center
   align-items: center
 
+  @media(max-width: 800px) and (orientation: landscape)
+    height: auto
+
   .mobile-menu
     display: none
 
@@ -109,10 +112,10 @@ section#home
             flex-direction: row
             text-align: center
             margin: 0 auto
-      @media(max-width: 980px) and (orientation: landscape)
-        margin-top: 1.5rem
-        .link-menu
-          margin: 0 0 .5rem
+      //@media(max-width: 980px) and (orientation: landscape)
+      //  margin-top: 1.5rem
+      //  .link-menu
+      //    margin: 0 0 .5rem
 
   @keyframes minify
     0%
@@ -189,46 +192,53 @@ section#home
         animation: minify 600ms ease-in-out
 
         .logo
+
+          @media(max-width: 1000px) and (min-width: 981px)
+            margin: 0 3rem
+
           img
             width: 100%
 
-        .social-wrapper
-          margin-right: .5rem
+        .menu-wrapper
+          margin-right: 1rem
 
+        .social-wrapper
+          //margin-right: .5rem
+          display: none
 
   .schedule-container
     position: fixed
     width: 80vw
     border: 1px solid #aaa
 
-.social-wrapper
-  ul
-    margin: 0
-    padding: 0
-    display: flex
-    flex-direction: row
+  .social-wrapper
+    ul
+      margin: 0
+      padding: 0
+      display: flex
+      flex-direction: row
 
-    li
-      margin: 0 .5rem
-      .icon
-        display: block
-        width: 30px
-        height: 30px
+      li
+        margin: 0 .5rem
+        .icon
+          display: block
+          width: 30px
+          height: 30px
 
-        border: 2px dotted rgba(black, .3)
-        border-radius: 50%
+          border: 2px dotted rgba(black, .3)
+          border-radius: 50%
 
-        opacity: .7
+          opacity: .7
 
-        @media(min-width: 981px)
+          @media(min-width: 981px)
 
 
-          transition: all 200ms ease-in-out
-          opacity: .5
-          //cursor: pointer
+            transition: all 200ms ease-in-out
+            opacity: .5
+            //cursor: pointer
 
-          &:hover
-            border: 2px solid rgba(black, 1)
+            &:hover
+              border: 2px solid rgba(black, 1)
 
-            opacity: .8
+              opacity: .8
 
