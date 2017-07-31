@@ -175,7 +175,7 @@ $(window).on('beforeunload', function() {
 $(document).ready(function() {
   $(this).scrollTop(0);
   $.mark.jump();
-  
+
   slideLoop();
 
 });
