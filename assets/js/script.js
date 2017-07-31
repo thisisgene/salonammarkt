@@ -175,12 +175,8 @@ $(window).on('beforeunload', function() {
 $(document).ready(function() {
   $(this).scrollTop(0);
   $.mark.jump();
-  // makeLinksActive();
-  // currentTop = 300;
-
-  // slideShow(1);
-
-  // slideLoop();
+  
+  slideLoop();
 
 });
 
