@@ -70,7 +70,7 @@
 	"\/_includes\/en\/about.pug": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/_includes\/en\/about.html",
 		"oF": 0,
 		"oS": 0
