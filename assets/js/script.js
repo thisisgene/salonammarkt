@@ -4,13 +4,12 @@ var lastScrollTop = 0;
 var scrollDirection;
 var clickToActivate;
 
-var imgCount = 3;
+var imgCount = 5;
 var currentSlide = 1;
 var slideInterval = 3000;
 var stopShow = false;
 var passedTime = 0;
 var setStop;
-
 
 $(window).scroll( function () {
 
@@ -133,7 +132,7 @@ function slideLoop() {
       console.log(currentSlide);
       slideShow(currentSlide);
     }
-  }, 3000);
+  }, 5000);
 }
 
 
