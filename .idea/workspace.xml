@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/salon1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/salon2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/salon3.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/gallery.pug" afterPath="$PROJECT_DIR$/_includes/gallery.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home.pug" afterPath="$PROJECT_DIR$/_includes/home.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/gallery.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/home.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/home.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-sections/impressum.sass" afterPath="$PROJECT_DIR$/assets/css/3-sections/impressum.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script-min.js" afterPath="$PROJECT_DIR$/assets/js/script-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/script.js" afterPath="$PROJECT_DIR$/assets/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,8 +78,12 @@
       <file leaf-file-name="gallery.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/3-sections/gallery.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+              <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -389,12 +380,12 @@
       <workItem from="1501695856749" duration="1793000" />
       <workItem from="1503920136897" duration="1821000" />
       <workItem from="1504008732979" duration="547000" />
-      <workItem from="1504527276364" duration="1760000" />
+      <workItem from="1504527276364" duration="1887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98235000" />
+    <option name="totallyTimeSpent" value="98362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,8 +738,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/gallery.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="288">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding />
         </state>
       </provider>

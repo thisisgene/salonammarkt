@@ -246,15 +246,15 @@ section#gallery {
         background-size: contain; } }
   section#gallery .gallery-list li:nth-child(1) span {
     opacity: 1;
-    background-image: url("/assets/img/gallery/salon01.jpg"); }
+    background-image: url("../img/gallery/salon01.jpg"); }
   section#gallery .gallery-list li:nth-child(2) span {
-    background-image: url("/assets/img/gallery/salon02.jpg"); }
+    background-image: url("../img/gallery/salon02.jpg"); }
   section#gallery .gallery-list li:nth-child(3) span {
-    background-image: url("/assets/img/gallery/salon03.jpg"); }
+    background-image: url("../img/gallery/salon03.jpg"); }
   section#gallery .gallery-list li:nth-child(4) span {
-    background-image: url("/assets/img/gallery/salon04.jpg"); }
+    background-image: url("../img/gallery/salon04.jpg"); }
   section#gallery .gallery-list li:nth-child(5) span {
-    background-image: url("/assets/img/gallery/salon05.jpg"); }
+    background-image: url("../img/gallery/salon05.jpg"); }
   section#gallery .gallery-controls {
     height: 100%;
     z-index: 10;
