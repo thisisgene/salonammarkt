@@ -235,7 +235,7 @@ section#gallery {
     top: 0;
     left: 0;
     color: transparent;
-    background-size: contain;
+    background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0;
