@@ -235,7 +235,7 @@ section#gallery {
     top: 0;
     left: 0;
     color: transparent;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     opacity: 0;
@@ -402,6 +402,6 @@ section#contact .map-container {
 section#impressum {
   text-align: center;
   background: #111;
-  color: #888; }
+  color: #666; }
   section#impressum .imp-list li p {
     margin: 0; }
