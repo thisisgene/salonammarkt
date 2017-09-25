@@ -404,11 +404,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/staff-mariana.jpg": {
+		"ft": 16384,
+		"iS": 98806,
+		"oA": 0,
+		"oAP": "\/assets\/img\/staff-mariana.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/staff-placeholder.jpg": {
 		"ft": 16384,
 		"iS": 7116,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/staff-wibke.jpg": {
+		"ft": 16384,
+		"iS": 422808,
+		"oA": 0,
+		"oAP": "\/assets\/img\/staff-wibke.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
