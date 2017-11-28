@@ -93,13 +93,13 @@ section#home {
             margin: 0 1rem; }
           section#home .home-wrapper .menu-wrapper ul li.li-booking {
             margin-right: 0; }
-            section#home .home-wrapper .menu-wrapper ul li.li-booking .acuity-embed-button {
+            section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button {
               color: #fff;
               background: #EAD2B7;
               padding: .4rem .6rem;
               border-radius: 6px;
               box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
-              section#home .home-wrapper .menu-wrapper ul li.li-booking .acuity-embed-button:hover {
+              section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button:hover {
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
                 color: #fff;
                 background: #ebd4ba; }
