@@ -13,7 +13,6 @@ var setStop;
 
 $(window).scroll( function () {
 
-  console.log(currentTop);
 
   scrollTop = $(this).scrollTop();
 
@@ -24,10 +23,6 @@ $(window).scroll( function () {
     scrollDirection = 'up';
   }
   lastScrollTop = scrollTop;
-  //
-  // $('.logo').css({
-  //   'transform': 'translate(-' + scrollTop / 20 + '%, 0px), scale(1 - ' + scrollTop / 20 + ')'
-  // });
 
   if (scrollTop > $('.home-wrapper').offset().top && scrollDirection === 'down') {
     if (!$('section#home').hasClass('minified')) {
@@ -73,25 +68,6 @@ $.mark = {
     });
   }
 };
-//
-// function makeLinksActive() {
-//   // var wScroll = $(window).scrollTop();
-//   var scrollPos = $(window).scrollTop();
-//   $('.link-menu li a').each(function () {
-//     var currLink = $(this);
-//     var refElement = $(currLink.attr("href"));
-//     console.log(refElement);
-//     if (refElement.position().top <= scrollPos && refElement.position().top + refElement.outerHeight- 10 > scrollPos && clickToActivate !== true) {
-//       // console.log(clickToActivate);
-//       $('.link-menu li a').removeClass("link--active");
-//       currLink.addClass("link--active");
-//       console.log('ohla');
-//     }
-//     else if (clickToActivate !== true){
-//       currLink.removeClass("link--active");
-//     }
-//   });
-// }
 
 
 function slideShow(startCount) {
@@ -103,24 +79,11 @@ function slideShow(startCount) {
   $('.active-slide').removeClass('active-slide').css('opacity', '0');
   $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
 
-
-  // setTimeout(function() {
-  //
-  //   if (startCount < imgCount) {
-  //     slideShow(startCount+1);
-  //   }
-  //   else {
-  //     slideShow(1);
-  //
-  //   }
-  // }, slideInterval);
-
 }
 
 function slideLoop() {
   setInterval(function() {
     if (stopShow) {
-      console.log('stop');
     }
     else {
       if (currentSlide < imgCount) {
@@ -129,7 +92,6 @@ function slideLoop() {
       else {
         currentSlide = 1;
       }
-      console.log(currentSlide);
       slideShow(currentSlide);
     }
   }, 5000);
@@ -140,7 +102,6 @@ function changeSlide(direction) {
   stopShow = true;
   stopStop = false;
   clearTimeout(setStop);
-  // var nextSlide;
   if (direction === 'next') {
     if (currentSlide < imgCount) {
       currentSlide = currentSlide + 1;
@@ -148,21 +109,18 @@ function changeSlide(direction) {
     else {currentSlide = 1}
     $('.active-slide').removeClass('active-slide').css('opacity', '0');
     $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
-    // slideShow(currentSlide);
   }
   if (direction === 'back') {
     if (currentSlide > 1) {
       currentSlide = currentSlide - 1;
     }
-    else {currentSlide = imgCount; console.log('one!');}
+    else {currentSlide = imgCount;}
     $('.active-slide').removeClass('active-slide').css('opacity', '0');
     $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
-    // slideShow(currentSlide - 1);
   }
 
   setStop = setTimeout(function() {
     stopShow = false;
-    console.log('is false');
   }, 10000);
 
 }
@@ -181,7 +139,6 @@ $(document).ready(function() {
 
 function initMap() {
   var salonammarkt = {lat: 48.2172205, lng: 16.3779313};
-  console.log('ashfg');
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
     center: salonammarkt,
@@ -192,13 +149,3 @@ function initMap() {
     map: map
   });
 }
-
-// $(document).on('pageinit', function(event) {
-//   $("#gallery").on('swipeleft', function () {
-//     console.log('leftttt');
-//     changeSlide('next');
-//   });
-//   $(".gallery-list li span").on('swiperight', function () {
-//     changeSlide('back');
-//   });
-// });
