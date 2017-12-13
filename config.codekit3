@@ -87,7 +87,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/about.html",
 		"oF": 0,
 		"oS": 0
@@ -96,7 +96,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/contact.html",
 		"oF": 0,
 		"oS": 0
@@ -105,7 +105,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/gallery.html",
 		"oF": 0,
 		"oS": 0
@@ -114,7 +114,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/head.html",
 		"oF": 0,
 		"oS": 0
@@ -123,7 +123,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/home.html",
 		"oF": 0,
 		"oS": 0
@@ -132,7 +132,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/impressum.html",
 		"oF": 0,
 		"oS": 0
@@ -141,7 +141,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_includes\/en\/service.html",
 		"oF": 0,
 		"oS": 0

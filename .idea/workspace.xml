@@ -4,8 +4,7 @@
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_includes/en/head.pug" afterPath="$PROJECT_DIR$/_includes/en/head.pug" />
       <change beforePath="$PROJECT_DIR$/_includes/head.pug" afterPath="$PROJECT_DIR$/_includes/head.pug" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" afterPath="$PROJECT_DIR$/en/index.html" />
-      <change beforePath="$PROJECT_DIR$/en/index.pug" afterPath="$PROJECT_DIR$/en/index.pug" />
+      <change beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="5" column="105" lean-forward="false" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -112,14 +111,14 @@
       <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="5" column="111" lean-forward="false" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/index.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -179,9 +178,9 @@
         <option value="$PROJECT_DIR$/_includes/about.pug" />
         <option value="$PROJECT_DIR$/_includes/home.pug" />
         <option value="$PROJECT_DIR$/_includes/en/home.pug" />
-        <option value="$PROJECT_DIR$/_includes/en/head.pug" />
-        <option value="$PROJECT_DIR$/_includes/head.pug" />
         <option value="$PROJECT_DIR$/en/index.pug" />
+        <option value="$PROJECT_DIR$/_includes/head.pug" />
+        <option value="$PROJECT_DIR$/_includes/en/head.pug" />
       </list>
     </option>
   </component>
@@ -439,12 +438,12 @@
       <workItem from="1512127908336" duration="18000" />
       <workItem from="1512394174395" duration="33000" />
       <workItem from="1513096393039" duration="1759000" />
-      <workItem from="1513192315959" duration="3373000" />
+      <workItem from="1513192315959" duration="3443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126100000" />
+    <option name="totallyTimeSpent" value="126170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,26 +766,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
+    <entry file="file://$PROJECT_DIR$/en/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state relative-caret-position="85">
+          <caret line="5" column="111" lean-forward="false" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/index.pug">
+    <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="85">
+          <caret line="5" column="105" lean-forward="false" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
           <folding />
         </state>
       </provider>
