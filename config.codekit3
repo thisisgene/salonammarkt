@@ -7,7 +7,7 @@
 		"uuidString": "293E1FFB-0D47-4BAA-BF1F-487570F7DD35"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -335,6 +335,7 @@
 	"\/assets\/img\/gallery\/salon01.jpg": {
 		"ft": 16384,
 		"iS": 196870,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gallery\/salon01.jpg",
 		"oF": 0,
@@ -345,6 +346,7 @@
 	"\/assets\/img\/gallery\/salon02.jpg": {
 		"ft": 16384,
 		"iS": 149735,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gallery\/salon02.jpg",
 		"oF": 0,
@@ -355,6 +357,7 @@
 	"\/assets\/img\/gallery\/salon03.jpg": {
 		"ft": 16384,
 		"iS": 146826,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gallery\/salon03.jpg",
 		"oF": 0,
@@ -365,6 +368,7 @@
 	"\/assets\/img\/gallery\/salon04.jpg": {
 		"ft": 16384,
 		"iS": 182716,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gallery\/salon04.jpg",
 		"oF": 0,
@@ -375,6 +379,7 @@
 	"\/assets\/img\/gallery\/salon05.jpg": {
 		"ft": 16384,
 		"iS": 150883,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/gallery\/salon05.jpg",
 		"oF": 0,
@@ -446,8 +451,20 @@
 	"\/assets\/img\/staff-diana.jpg": {
 		"ft": 16384,
 		"iS": 540328,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-diana.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/staff-kristina.jpg": {
+		"ft": 16384,
+		"iS": 77197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/staff-kristina.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -456,6 +473,7 @@
 	"\/assets\/img\/staff-mariana.jpg": {
 		"ft": 16384,
 		"iS": 98806,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-mariana.jpg",
 		"oF": 0,
@@ -466,6 +484,7 @@
 	"\/assets\/img\/staff-placeholder.jpg": {
 		"ft": 16384,
 		"iS": 7116,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-placeholder.jpg",
 		"oF": 0,
@@ -476,6 +495,7 @@
 	"\/assets\/img\/staff-wibke.jpg": {
 		"ft": 16384,
 		"iS": 422808,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-wibke.jpg",
 		"oF": 0,
@@ -486,6 +506,7 @@
 	"\/assets\/img\/staff-wibke2.jpg": {
 		"ft": 16384,
 		"iS": 87874,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/staff-wibke2.jpg",
 		"oF": 0,
@@ -612,7 +633,8 @@
 	"creationDate": 520263380,
 	"displayValue": "salonammarkt website",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_teal"
+	"iconImageName": "brackets_teal",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -620,6 +642,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -2414,6 +2437,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
