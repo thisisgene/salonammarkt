@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/service.pug" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/service.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/service.pug">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/contact.pug">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -107,15 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/head.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -147,7 +147,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/en/service.pug" />
         <option value="$PROJECT_DIR$/_includes/en/contact.pug" />
-        <option value="$PROJECT_DIR$/_includes/contact.pug" />
         <option value="$PROJECT_DIR$/assets/img/icons.svg" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
@@ -171,6 +170,7 @@
         <option value="$PROJECT_DIR$/_includes/en/impressum.pug" />
         <option value="$PROJECT_DIR$/_includes/about.pug" />
         <option value="$PROJECT_DIR$/_includes/service.pug" />
+        <option value="$PROJECT_DIR$/_includes/contact.pug" />
       </list>
     </option>
   </component>
@@ -368,12 +368,12 @@
       <workItem from="1528905515497" duration="594000" />
       <workItem from="1530202512097" duration="7000" />
       <workItem from="1530955358294" duration="594000" />
-      <workItem from="1531131774041" duration="237000" />
+      <workItem from="1531131774041" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134202000" />
+    <option name="totallyTimeSpent" value="134249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,13 +519,6 @@
     <entry file="file://$PROJECT_DIR$/assets/img/salon3.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/img/salon2.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/img/salon1.jpg" />
-    <entry file="file://$PROJECT_DIR$/_includes/contact.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/contact.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -681,8 +674,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/service.pug">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/contact.pug">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
