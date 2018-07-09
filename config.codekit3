@@ -126,6 +126,13 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/_includes\/en\/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/en\/home.html",
+		"oF": 0
+		},
 	"\/_includes\/en\/home.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -134,6 +141,13 @@
 		"oAP": "\/_includes\/en\/home.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/_includes\/en\/impressum.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/en\/impressum.html",
+		"oF": 0
 		},
 	"\/_includes\/en\/impressum.pug": {
 		"cB": 0,
