@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60a0cbdf-5cb3-4971-8410-fc3149da850c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.codekit3" beforeDir="false" afterPath="$PROJECT_DIR$/config.codekit3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/service.pug" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/service.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/en/head.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/en/home.pug">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.pug" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/about.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="140">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/service.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -147,7 +145,6 @@
         <option value="$PROJECT_DIR$/_pugfiles/home.pug" />
         <option value="$PROJECT_DIR$/assets/css/2-layouts/home.sass" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/_includes/service.pug" />
         <option value="$PROJECT_DIR$/_includes/en/service.pug" />
         <option value="$PROJECT_DIR$/_includes/en/contact.pug" />
         <option value="$PROJECT_DIR$/_includes/contact.pug" />
@@ -173,6 +170,7 @@
         <option value="$PROJECT_DIR$/_includes/impressum.pug" />
         <option value="$PROJECT_DIR$/_includes/en/impressum.pug" />
         <option value="$PROJECT_DIR$/_includes/about.pug" />
+        <option value="$PROJECT_DIR$/_includes/service.pug" />
       </list>
     </option>
   </component>
@@ -370,12 +368,12 @@
       <workItem from="1528905515497" duration="594000" />
       <workItem from="1530202512097" duration="7000" />
       <workItem from="1530955358294" duration="594000" />
-      <workItem from="1531131774041" duration="88000" />
+      <workItem from="1531131774041" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134053000" />
+    <option name="totallyTimeSpent" value="134202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/service.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/3-sections/service.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -683,8 +674,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/about.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="140">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/service.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>
