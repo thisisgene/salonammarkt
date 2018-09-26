@@ -1,3 +1,46 @@
+.cookie-alert
+      position: fixed
+      top: 0
+      width: 100vw
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: center
+      background: rgba(#EAD2B7, .8)
+      z-index: 10000
+
+      @media(max-width: 800px)
+        @media(orientation: landscape)
+          position: relative
+        display: block
+
+        text-align: center
+        padding: 1rem
+        
+      .cookie-text
+        max-width: 65vw
+        @media(max-width: 800px)
+          margin: 1rem auto
+          max-width: 90%
+      .cookie-button-wrapper
+        margin-left: 2rem
+        .cookie-button
+          padding: 4px 8px
+          background: rgba(white, .7)
+          cursor: pointer
+          transition: 200ms all ease-in-out
+          
+          &--ok
+            border-top-left-radius: 8px
+            border-bottom-left-radius: 8px
+            margin-right: 3px
+            &:hover
+              background: lightgreen
+              text-decoration: none
+          &--info
+            border-top-right-radius: 8px
+            border-bottom-right-radius: 8px
+  
 section#home
   background: white
   height: 100vh
@@ -21,7 +64,7 @@ section#home
 
     transition: all 200ms ease-in-out
 
-
+    
     .logo
       width: 80vw
       margin: 0 auto
