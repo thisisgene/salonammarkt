@@ -128,7 +128,33 @@ section#home {
             height: 10vw; } }
     section#home .home-wrapper .menu-wrapper {
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      align-items: center; }
+      section#home .home-wrapper .menu-wrapper .email-alert-container {
+        display: none;
+        position: fixed;
+        left: 50%;
+        z-index: 1; }
+        @media (max-width: 800px) {
+          section#home .home-wrapper .menu-wrapper .email-alert-container {
+            width: 92%; } }
+        section#home .home-wrapper .menu-wrapper .email-alert-container .email-alert {
+          position: relative;
+          left: -50%;
+          background: white;
+          border: 3px solid #EAD2B7;
+          padding: 2rem;
+          border-radius: 5px;
+          margin: 0 auto;
+          text-align: center;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          align-self: center; }
+          section#home .home-wrapper .menu-wrapper .email-alert-container .email-alert button {
+            color: #fff;
+            background: #EAD2B7;
+            padding: .4rem 2rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
       section#home .home-wrapper .menu-wrapper ul {
         display: flex;
         flex-direction: row;

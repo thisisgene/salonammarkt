@@ -47,12 +47,18 @@
       li.lang-select.langselect__right
         a(href='en', data-ajax="false") EN
       -->
+      <div class="email-alert-container">
+        <div class="email-alert"><img src="assets/img/alert2.png"/>
+          <p>Bitte stelle nach Abschluss der Buchung sicher, dass du ein Bestätigungsmail bekommen hast, da sonst die Buchung leider nicht durchgegangen ist!</p>
+          <button onclick="hideEmailAlert()">Ok</button>
+        </div>
+      </div>
       <ul class="link-menu no-select">
         <li class="li-item"><a class="scroll-on-page-link" href="#gallery">Galerie</a></li>
         <li class="li-item"><a class="scroll-on-page-link" href="#about">Über uns</a></li>
         <li class="li-item"><a class="scroll-on-page-link" href="#service">Service</a></li>
         <li class="li-item"><a class="scroll-on-page-link" href="#contact">Kontakt</a></li>
-        <li class="li-item li-booking"><a class="timify-button" href="#" data-id="5a1d5037d45d41378633d773">Termin buchen</a>
+        <li class="li-item li-booking"><a class="timify-button" href="#" data-id="5a1d5037d45d41378633d773" onclick="showEmailAlert()">Termin buchen</a>
           <script id="timify" async="" type="text/javascript" src="https://widget.timify.com/js/widget.js" data-position="flexible"></script>
         </li>
       </ul>

@@ -1,151 +1,164 @@
-var scrollTop;
-var currentTop;
-var lastScrollTop = 0;
-var scrollDirection;
-var clickToActivate;
+var scrollTop
+var currentTop
+var lastScrollTop = 0
+var scrollDirection
+var clickToActivate
 
-var imgCount = 5;
-var currentSlide = 1;
-var slideInterval = 3000;
-var stopShow = false;
-var passedTime = 0;
-var setStop;
+var imgCount = 5
+var currentSlide = 1
+var slideInterval = 3000
+var stopShow = false
+var passedTime = 0
+var setStop
 
-$(window).scroll( function () {
+$(window).scroll(function() {
+  scrollTop = $(this).scrollTop()
 
-
-  scrollTop = $(this).scrollTop();
-
-
-  if (scrollTop > lastScrollTop){
-    scrollDirection = 'down';
+  if (scrollTop > lastScrollTop) {
+    scrollDirection = 'down'
   } else {
-    scrollDirection = 'up';
+    scrollDirection = 'up'
   }
-  lastScrollTop = scrollTop;
+  lastScrollTop = scrollTop
 
-  if (scrollTop > $('.home-wrapper').offset().top && scrollDirection === 'down') {
+  if (
+    scrollTop > $('.home-wrapper').offset().top &&
+    scrollDirection === 'down'
+  ) {
     if (!$('section#home').hasClass('minified')) {
-      $('section#home').addClass('minified');
+      $('section#home').addClass('minified')
       setTimeout(function() {
-        $('section#home').addClass('dir-change');
-
-      }, 200);
-      currentTop = scrollTop;
+        $('section#home').addClass('dir-change')
+      }, 200)
+      currentTop = scrollTop
     }
-
   }
   if (scrollTop < currentTop) {
-    $('section#home').removeClass('minified dir-change');
+    $('section#home').removeClass('minified dir-change')
   }
-});
+})
 
 $.mark = {
-  jump: function (options) {
+  jump: function(options) {
     var defaults = {
       selector: 'a.scroll-on-page-link'
-    };
+    }
     if (typeof options === 'string') {
-      defaults.selector = options;
+      defaults.selector = options
     }
 
-    options = $.extend(defaults, options);
-    return $(options.selector).click(function (e) {
-      var jumpobj = $(this);
-      var target = jumpobj.attr('href');
-      var thespeed = 1000;
-      var offset = $(target).offset().top;
-      $('.link--active').removeClass('link--active');
-      jumpobj.addClass('link--active');
-      clickToActivate = true;
+    options = $.extend(defaults, options)
+    return $(options.selector).click(function(e) {
+      var jumpobj = $(this)
+      var target = jumpobj.attr('href')
+      var thespeed = 1000
+      var offset = $(target).offset().top
+      $('.link--active').removeClass('link--active')
+      jumpobj.addClass('link--active')
+      clickToActivate = true
 
-      $('html,body').animate({
-        scrollTop: offset
-      }, thespeed, 'swing', function(){
-        // setTimeout(function(){clickToActivate = false;}, 100);
-      });
-      e.preventDefault();
-    });
+      $('html,body').animate(
+        {
+          scrollTop: offset
+        },
+        thespeed,
+        'swing',
+        function() {
+          // setTimeout(function(){clickToActivate = false;}, 100);
+        }
+      )
+      e.preventDefault()
+    })
   }
-};
-
+}
 
 function slideShow(startCount) {
-
-
-
-
-  currentSlide = startCount;
-  $('.active-slide').removeClass('active-slide').css('opacity', '0');
-  $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
-
+  currentSlide = startCount
+  $('.active-slide')
+    .removeClass('active-slide')
+    .css('opacity', '0')
+  $('.gallery-list li:nth-child(' + currentSlide + ') span')
+    .addClass('active-slide')
+    .css('opacity', '1')
 }
 
 function slideLoop() {
   setInterval(function() {
     if (stopShow) {
-    }
-    else {
+    } else {
       if (currentSlide < imgCount) {
-        currentSlide ++;
+        currentSlide++
+      } else {
+        currentSlide = 1
       }
-      else {
-        currentSlide = 1;
-      }
-      slideShow(currentSlide);
+      slideShow(currentSlide)
     }
-  }, 5000);
+  }, 5000)
 }
 
-
 function changeSlide(direction) {
-  stopShow = true;
-  stopStop = false;
-  clearTimeout(setStop);
+  stopShow = true
+  stopStop = false
+  clearTimeout(setStop)
   if (direction === 'next') {
     if (currentSlide < imgCount) {
-      currentSlide = currentSlide + 1;
+      currentSlide = currentSlide + 1
+    } else {
+      currentSlide = 1
     }
-    else {currentSlide = 1}
-    $('.active-slide').removeClass('active-slide').css('opacity', '0');
-    $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
+    $('.active-slide')
+      .removeClass('active-slide')
+      .css('opacity', '0')
+    $('.gallery-list li:nth-child(' + currentSlide + ') span')
+      .addClass('active-slide')
+      .css('opacity', '1')
   }
   if (direction === 'back') {
     if (currentSlide > 1) {
-      currentSlide = currentSlide - 1;
+      currentSlide = currentSlide - 1
+    } else {
+      currentSlide = imgCount
     }
-    else {currentSlide = imgCount;}
-    $('.active-slide').removeClass('active-slide').css('opacity', '0');
-    $('.gallery-list li:nth-child('+currentSlide+') span').addClass('active-slide').css('opacity', '1');
+    $('.active-slide')
+      .removeClass('active-slide')
+      .css('opacity', '0')
+    $('.gallery-list li:nth-child(' + currentSlide + ') span')
+      .addClass('active-slide')
+      .css('opacity', '1')
   }
 
   setStop = setTimeout(function() {
-    stopShow = false;
-  }, 10000);
-
+    stopShow = false
+  }, 10000)
 }
 
 $(window).on('beforeunload', function() {
-  $(window).scrollTop(0);
-});
+  $(window).scrollTop(0)
+})
 
 $(document).ready(function() {
-  $(this).scrollTop(0);
-  $.mark.jump();
+  $(this).scrollTop(0)
+  $.mark.jump()
 
-  slideLoop();
-
-});
+  slideLoop()
+})
 
 function initMap() {
-  var salonammarkt = {lat: 48.2172205, lng: 16.3779313};
+  var salonammarkt = { lat: 48.2172205, lng: 16.3779313 }
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
     center: salonammarkt,
     scrollwheel: false
-  });
+  })
   var marker = new google.maps.Marker({
     position: salonammarkt,
     map: map
-  });
+  })
+}
+
+function showEmailAlert() {
+  $('.email-alert-container').show(3000)
+}
+function hideEmailAlert() {
+  $('.email-alert-container').hide()
 }

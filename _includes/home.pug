@@ -17,6 +17,12 @@ section#home
         li.li-sep /
         li.lang-select.langselect__right
           a(href='en', data-ajax="false") EN
+      .email-alert-container
+        .email-alert
+          img(src='assets/img/alert2.png')
+          p Bitte stelle nach Abschluss der Buchung sicher, dass du ein Bestätigungsmail bekommen hast, da sonst die Buchung leider nicht durchgegangen ist!
+          button(onclick='hideEmailAlert()') Ok
+
       ul.link-menu.no-select
         li.li-item
           a(href='#gallery').scroll-on-page-link Galerie
@@ -28,9 +34,9 @@ section#home
           a(href='#contact').scroll-on-page-link Kontakt
         li.li-item.li-booking
 
-          a.timify-button(href='#', data-id="5a1d5037d45d41378633d773") Termin buchen
+          a.timify-button(href='#', data-id="5a1d5037d45d41378633d773" onclick="showEmailAlert()") Termin buchen
           script#timify(async='', type='text/javascript', src='https://widget.timify.com/js/widget.js', data-position='flexible')
-
+          
   .social-wrapper
       ul.social-menu
         li
