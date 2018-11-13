@@ -495,6 +495,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/img/staff-gitana.jpg": {
+		"ft": 16384,
+		"iS": 126662,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/staff-gitana.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/staff-kristina.jpg": {
 		"ft": 16384,
 		"iS": 77197,
