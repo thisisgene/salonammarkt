@@ -63,11 +63,14 @@ section {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: rgba(234, 210, 183, 0.8);
-  z-index: 10000; }
+  background: rgba(255, 221, 186, 0.8);
+  z-index: 10000;
+  display: none; }
   @media (max-width: 800px) {
     .cookie-alert {
+      display: none;
       display: block;
+      display: none;
       text-align: center;
       padding: 1rem; } }
   @media (max-width: 800px) and (orientation: landscape) {
@@ -103,12 +106,33 @@ section#home {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 1.5rem 1.5rem 3rem; }
+  @media (max-width: 800px) {
+    section#home {
+      padding: 1.5rem 1.5rem 6rem; }
+      section#home .home-background .arrow-down {
+        width: 60px !important; } }
   @media (max-width: 800px) and (orientation: landscape) {
     section#home {
       height: auto; } }
   section#home .mobile-menu {
     display: none; }
+  section#home .home-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFDDBA;
+    border-radius: 1.3rem;
+    width: 100%;
+    height: 100vh; }
+    section#home .home-background .arrow-down {
+      position: absolute;
+      bottom: 10px;
+      width: 100px; }
+      section#home .home-background .arrow-down img {
+        width: 100%; }
   section#home .home-wrapper {
     display: flex;
     flex-direction: column;
@@ -120,7 +144,7 @@ section#home {
       margin: 0 auto; }
       @media (max-width: 980px) {
         section#home .home-wrapper .logo {
-          width: 100vw;
+          width: 85vw;
           display: flex;
           justify-content: center; }
           section#home .home-wrapper .logo img {
@@ -142,7 +166,7 @@ section#home {
           position: relative;
           left: -50%;
           background: white;
-          border: 3px solid #EAD2B7;
+          border: 3px solid #FFDDBA;
           padding: 2rem;
           border-radius: 5px;
           margin: 0 auto;
@@ -151,7 +175,7 @@ section#home {
           align-self: center; }
           section#home .home-wrapper .menu-wrapper .email-alert-container .email-alert button {
             color: #fff;
-            background: #EAD2B7;
+            background: #FFDDBA;
             padding: .4rem 2rem;
             border-radius: 6px;
             box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
@@ -172,15 +196,15 @@ section#home {
           section#home .home-wrapper .menu-wrapper ul li.li-booking {
             margin-right: 0; }
             section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button {
-              color: #fff;
-              background: #EAD2B7;
+              color: #111;
+              background: #fff;
               padding: .4rem .6rem;
               border-radius: 6px;
               box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
               section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button:hover {
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
                 color: #fff;
-                background: #ebd4ba; }
+                background: #ffdfbe; }
           section#home .home-wrapper .menu-wrapper ul li a {
             text-decoration: none;
             color: #838383; }
@@ -190,7 +214,7 @@ section#home {
               text-decoration: underline;
               color: #333; }
             section#home .home-wrapper .menu-wrapper ul li a.link--active {
-              color: #FFE300; }
+              color: #111; }
       @media (max-width: 980px) {
         section#home .home-wrapper .menu-wrapper {
           flex-direction: column;
@@ -221,7 +245,6 @@ section#home {
     flex-direction: row; } }
   @media (max-width: 980px) {
     section#home.minified .home-wrapper {
-      background: rgba(255, 255, 255, 0.8);
       z-index: 1000; }
       section#home.minified .home-wrapper .logo {
         position: fixed;
@@ -266,6 +289,9 @@ section#home {
         width: 100%; }
       section#home.minified .home-wrapper .menu-wrapper {
         margin-right: 1rem; }
+        section#home.minified .home-wrapper .menu-wrapper .link-menu .timify-button {
+          background: #FFDDBA;
+          color: white; }
       section#home.minified .home-wrapper .social-wrapper {
         display: none; } }
   section#home .schedule-container {
@@ -409,7 +435,7 @@ section#service {
   width: 100%;
   text-align: center;
   color: #555;
-  background: #EAD2B7; }
+  background: #FFDDBA; }
   section#service a {
     color: #aaa;
     text-decoration: none; }

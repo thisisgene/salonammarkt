@@ -38,37 +38,40 @@
 </head>
 <div class="cookie-alert"></div>
 <section id="home">
-  <div class="home-wrapper"><a class="scroll-on-page-link logo no-select" href="#home"><img src="assets/img/logo_main.svg" alt="Salon am Markt"/></a>
-    <div class="menu-wrapper">
-      <!--ul.lang-menu.no-select
-      li.lang-select.lang-select__left
-        a.active DE
-      li.li-sep /
-      li.lang-select.langselect__right
-        a(href='en', data-ajax="false") EN
-      -->
-      <div class="email-alert-container">
-        <div class="email-alert"><img src="assets/img/alert2.png"/>
-          <p>Bitte stelle nach Abschluss der Buchung sicher, dass du ein Bestätigungsmail bekommen hast, da sonst die Buchung leider nicht durchgegangen ist!</p>
-          <button onclick="hideEmailAlert()">Ok</button>
+  <div class="home-background">
+    <div class="home-wrapper"><a class="scroll-on-page-link logo no-select" href="#home"><img src="assets/img/logo_main.svg" alt="Salon am Markt"/></a>
+      <div class="menu-wrapper">
+        <!--ul.lang-menu.no-select
+        li.lang-select.lang-select__left
+          a.active DE
+        li.li-sep /
+        li.lang-select.langselect__right
+          a(href='en', data-ajax="false") EN
+        -->
+        <div class="email-alert-container">
+          <div class="email-alert"><img src="assets/img/alert2.png"/>
+            <p>Bitte stelle nach Abschluss der Buchung sicher, dass du ein Bestätigungsmail bekommen hast, da sonst die Buchung leider nicht durchgegangen ist!</p>
+            <button onclick="hideEmailAlert()">Ok</button>
+          </div>
         </div>
+        <ul class="link-menu no-select">
+          <li class="li-item"><a class="scroll-on-page-link" href="#gallery">Galerie</a></li>
+          <li class="li-item"><a class="scroll-on-page-link" href="#about">Über uns</a></li>
+          <li class="li-item"><a class="scroll-on-page-link" href="#service">Service</a></li>
+          <li class="li-item"><a class="scroll-on-page-link" href="#contact">Kontakt</a></li>
+          <li class="li-item li-booking"><a class="timify-button" href="#" data-id="5a1d5037d45d41378633d773" onclick="showEmailAlert()">Termin buchen</a>
+            <script id="timify" async="" type="text/javascript" src="https://widget.timify.com/js/widget.js" data-position="flexible"></script>
+          </li>
+        </ul>
       </div>
-      <ul class="link-menu no-select">
-        <li class="li-item"><a class="scroll-on-page-link" href="#gallery">Galerie</a></li>
-        <li class="li-item"><a class="scroll-on-page-link" href="#about">Über uns</a></li>
-        <li class="li-item"><a class="scroll-on-page-link" href="#service">Service</a></li>
-        <li class="li-item"><a class="scroll-on-page-link" href="#contact">Kontakt</a></li>
-        <li class="li-item li-booking"><a class="timify-button" href="#" data-id="5a1d5037d45d41378633d773" onclick="showEmailAlert()">Termin buchen</a>
-          <script id="timify" async="" type="text/javascript" src="https://widget.timify.com/js/widget.js" data-position="flexible"></script>
-        </li>
+    </div>
+    <div class="social-wrapper">
+      <ul class="social-menu">
+        <li><a href="https://www.facebook.com/SALON-am-MARKT-1485719014791619/" target="_blank"><img class="icon icon__facebook" src="assets/img/icon_facebookBWbig.svg"/></a></li>
+        <li><a href="https://www.instagram.com/salonammarkt/" target="_blank"><img class="icon icon__instagram" src="assets/img/icon_instagramBWbig.svg"/></a></li>
       </ul>
     </div>
-  </div>
-  <div class="social-wrapper">
-    <ul class="social-menu">
-      <li><a href="https://www.facebook.com/SALON-am-MARKT-1485719014791619/" target="_blank"><img class="icon icon__facebook" src="assets/img/icon_facebookBWbig.svg"/></a></li>
-      <li><a href="https://www.instagram.com/salonammarkt/" target="_blank"><img class="icon icon__instagram" src="assets/img/icon_instagramBWbig.svg"/></a></li>
-    </ul>
+    <div class="arrow-down"><a class="scroll-on-page-link" href="#gallery"><img src="assets/img/arrow_down.png" alt="Pfeil hinunter"/></a></div>
   </div>
 </section>
 <section id="gallery">
