@@ -115,7 +115,13 @@ section#home {
         width: 60px !important; } }
   @media (max-width: 800px) and (orientation: landscape) {
     section#home {
-      height: auto; } }
+      padding: 1rem 1rem 6rem; }
+      section#home .home-background .home-wrapper .logo {
+        width: 60vw; }
+      section#home .home-background .home-wrapper .menu-wrapper {
+        margin-top: 0; }
+        section#home .home-background .home-wrapper .menu-wrapper li {
+          font-size: .9rem; } }
   section#home .mobile-menu {
     display: none; }
   section#home .home-background {
