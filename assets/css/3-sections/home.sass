@@ -121,6 +121,28 @@ section#home
       display: flex
       flex-direction: row
       align-items: center
+      .aktion-alert-container
+        // display: none
+        position: fixed
+        left: 0
+        top: 0
+        z-index: 1
+        width: 100vw
+        height: 100vh
+        display: flex
+        justify-content: center
+        align-items: center
+        background: rgba(0,0,0,0.5)
+        
+        .aktion-alert
+          cursor: pointer
+          width: 60%
+          img
+            width: 100%
+        @media(max-width: 800px)
+          // width: 92%
+          .aktion-alert
+            width: 96%
       .email-alert-container
         display: none
         position: fixed
@@ -180,7 +202,7 @@ section#home
               &:hover
                 box-shadow: 0 1px 0 rgba(black, .6)
                 color: #fff
-                background: #3E7F6B
+                background: #8EC683
 
           a
             text-decoration: none
