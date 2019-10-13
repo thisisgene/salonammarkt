@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600')
+
+html, body
+  margin: 0
+  padding: 0
+  font:
+    family: Catamaran, Arial
+    size: 16px
+  height: 2000px
+
+
+.sub-title
+  text-align: center
+  font-size: 2.5rem
+  color: #333
+  font-weight: 400
+  margin: .5rem 0
+
+  @media(max-width: 400px)
+    font-size: 2rem
+  @media(max-width: 320px)
+    font-size: 1.5rem
+
+  .smaller
+    font-size: .55em
+    padding: 0 .4em
+
+ul
+  list-style: none
+  padding: 0
+
+a
+  text-decoration: none
+  color: #838383
+
+  &:hover
+    color: #333
+
+.small
+  font-size: .7rem
+
+section
+  padding: 60px 0
+  box-sizing: border-box
+
+  @media(max-width: 980px) and (orientation: landscape)
+    padding: 30px 0
+
+.no-select
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  
+  -webkit-touch-callout: none
+  -ms-text-size-adjust: none
+  -webkit-text-size-adjust: none
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+.ui-loader
+  display: none !important
