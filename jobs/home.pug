@@ -9,7 +9,7 @@ section#home
     .home-wrapper
 
       a(href='#home').scroll-on-page-link.logo.no-select
-        img(src='assets/img/logo_main.svg', alt='Salon am Markt')
+        img(src='../assets/img/logo_main.svg', alt='Salon am Markt')
       .menu-wrapper
         //ul.lang-menu.no-select
           li.lang-select.lang-select__left
@@ -19,24 +19,24 @@ section#home
             a(href='en', data-ajax="false") EN
         //- .aktion-alert-container
         //-   .aktion-alert(onclick='hideAktionAlert()')
-        //-     img(src='assets/img/SaM_Aktion_Web_final.png')
+        //-     img(src='../assets/img/SaM_Aktion_Web_final.png')
         .email-alert-container
           .email-alert
-            img(src='assets/img/alert2.png')
+            img(src='../assets/img/alert2.png')
             p Bitte stelle nach Abschluss der Buchung sicher, dass du ein Bestätigungsmail bekommen hast, da sonst die Buchung leider nicht durchgegangen ist!
             button(onclick='hideEmailAlert()') Ok
 
         ul.link-menu.no-select
           li.li-item
-            a(href='#gallery').scroll-on-page-link Galerie
+            a(href='/#gallery').scroll-on-page-link Galerie
           li.li-item
-            a(href='#about').scroll-on-page-link Über uns
+            a(href='/#about').scroll-on-page-link Über uns
           li.li-item
-            a(href='#service').scroll-on-page-link Service
+            a(href='/#service').scroll-on-page-link Service
           li.li-item
-            a(href='/jobs') Jobs
+            a(href='/jobs/#jobs').scroll-on-page-link Jobs
           li.li-item
-            a(href='#contact').scroll-on-page-link Kontakt
+            a(href='/#contact').scroll-on-page-link Kontakt
           li.li-item.li-booking
 
             a.timify-button(href='#', data-id="5a1d5037d45d41378633d773" onclick="showEmailAlert()") Termin buchen
@@ -46,11 +46,11 @@ section#home
       ul.social-menu
         li
           a(href='https://www.facebook.com/SALON-am-MARKT-1485719014791619/', target='_blank')
-            img(src='assets/img/icon_facebookBWbig.svg').icon.icon__facebook
+            img(src='../assets/img/icon_facebookBWbig.svg').icon.icon__facebook
         li
           a(href='https://www.instagram.com/salonammarkt/', target='_blank')
-            img(src='assets/img/icon_instagramBWbig.svg').icon.icon__instagram
+            img(src='../assets/img/icon_instagramBWbig.svg').icon.icon__instagram
 
     .arrow-down
       a(href='#gallery').scroll-on-page-link
-        img(src="assets/img/arrow_down.png", alt="Pfeil hinunter")
+        img(src="../assets/img/arrow_down.png", alt="Pfeil hinunter")

@@ -20,7 +20,6 @@ $(window).scroll(function() {
     scrollDirection = 'up'
   }
   lastScrollTop = scrollTop
-  console.log(1 - scrollTop / 100)
   $('.arrow-down').css('opacity', 1 - scrollTop / 100)
   if (
     scrollTop > $('.home-wrapper').offset().top &&
