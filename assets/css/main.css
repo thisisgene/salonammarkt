@@ -266,7 +266,6 @@ section#home {
               flex-direction: row;
               text-align: center;
               margin: 0 auto; } }
-
 @keyframes minify {
   0% {
     opacity: 1;
@@ -353,7 +352,6 @@ section#home {
             section#home .social-wrapper ul li .icon:hover {
               border: 2px solid black;
               opacity: .8; } }
-
 section#gallery {
   height: 100vh;
   position: relative; }
@@ -426,7 +424,6 @@ section#gallery {
       section#gallery .gallery-controls .arrow:active {
         opacity: 1;
         transform: translateX(0px); } }
-
 section#about .about-container {
   padding: 0 6rem;
   text-align: center;
@@ -442,9 +439,12 @@ section#about .about-container {
     justify-content: center;
     flex-wrap: wrap; }
     section#about .about-container .member-container .member {
-      margin: 0 2rem; }
+      margin: 1rem 2rem; }
       section#about .about-container .member-container .member h3 {
-        color: #333; }
+        color: #333;
+        margin-bottom: 0; }
+      section#about .about-container .member-container .member p {
+        margin-top: 0; }
       section#about .about-container .member-container .member .photo img {
         width: 350px; }
       @media (max-width: 350px) {
@@ -465,7 +465,6 @@ section#about .about-container {
   @media (max-width: 480px) {
     section#about .about-container .about-text {
       width: 90%; } }
-
 section#service {
   width: 100%;
   text-align: center;
@@ -522,7 +521,6 @@ section#service {
           section#service .service-container .service-wrapper__right {
             width: 50%;
             padding-left: 0; } }
-
 section#jobs {
   padding-top: 0 !important; }
   section#jobs .logo {
@@ -553,7 +551,6 @@ section#jobs {
         section#jobs .jobs-container .jobs-text {
           padding: 2rem 2rem;
           width: 90%; } }
-
 section#contact .info-container {
   text-align: center;
   margin-bottom: 2rem; }
@@ -578,7 +575,6 @@ section#contact .map-container {
       width: 100vw;
       padding-bottom: 56.25%;
       border: none; } }
-
 section#impressum {
   text-align: center;
   background: #111;
