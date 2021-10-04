@@ -1254,6 +1254,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/assets/img/staff-shaib.jpg": {
+		"ft": 16384,
+		"iS": 66794,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/staff-shaib.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/staff-wibke.jpg": {
 		"ft": 16384,
 		"iS": 422808,
@@ -1271,6 +1282,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/staff-wibke2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/staff-zoya.jpg": {
+		"ft": 16384,
+		"iS": 49223,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/staff-zoya.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
