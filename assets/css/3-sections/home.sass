@@ -139,6 +139,7 @@ section#home
           cursor: pointer
           width: 60%
           text-align: right
+          
           .close-button
             color: #111
             font-size: 1.5rem
@@ -146,6 +147,10 @@ section#home
             margin-right: .7rem
           img
             width: 100%
+            filter: drop-shadow(0 0 0 white)
+            transition: filter 200ms ease-in-out
+            &:hover
+              filter: drop-shadow(0 0 7px white)
         @media(max-width: 800px)
           // width: 92%
           .aktion-alert

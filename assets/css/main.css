@@ -191,7 +191,11 @@ section#home {
             font-weight: bold;
             margin-right: .7rem; }
           section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert img {
-            width: 100%; }
+            width: 100%;
+            filter: drop-shadow(0 0 0 white);
+            transition: filter 200ms ease-in-out; }
+            section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert img:hover {
+              filter: drop-shadow(0 0 7px white); }
         @media (max-width: 800px) {
           section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert {
             width: 96%; } }
