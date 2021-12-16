@@ -19,7 +19,9 @@ section#home
             a(href='en', data-ajax="false") EN
         .aktion-alert-container
           .aktion-alert
-            span#close-button.close-button(onclick='hideAktionAlert()') x
+            .close-button-container
+              #close-button.close-button(onclick='hideAktionAlert()') 
+                img(src="assets/img/cancel_white_24dp.svg", alt="close")
             a(href='/gutscheine')
               img(src='assets/img/gutscheine1221w.png')
         .email-alert-container

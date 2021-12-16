@@ -183,13 +183,22 @@ section#home {
         section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert {
           margin-top: -1rem;
           cursor: pointer;
-          width: 60%;
-          text-align: right; }
+          width: 60%; }
+          section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert .close-button-container {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            cursor: default; }
           section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert .close-button {
-            color: #111;
-            font-size: 1.5rem;
+            cursor: pointer;
+            color: #fff;
+            font-size: 2rem;
             font-weight: bold;
-            margin-right: .7rem; }
+            margin: .4rem 0;
+            width: 36px; }
+            @media (max-width: 460px) {
+              section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert .close-button {
+                width: 46px; } }
           section#home .home-wrapper .menu-wrapper .aktion-alert-container .aktion-alert img {
             width: 100%;
             filter: drop-shadow(0 0 0 white);

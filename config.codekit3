@@ -167,6 +167,14 @@
       "oF" : 1,
       "oS" : 0
     },
+    "\/_includes\/gutscheine.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_includes\/gutscheine.html",
+      "oF" : 0
+    },
     "\/_includes\/gutscheine.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -1122,6 +1130,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/img\/cancel_white_24dp.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/img\/cancel_white_24dp.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/assets\/img\/gallery\/salon01.jpg" : {
       "ft" : 16384,
