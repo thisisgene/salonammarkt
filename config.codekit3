@@ -1321,6 +1321,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/img\/staff-amit.jpg" : {
+      "ft" : 16384,
+      "iS" : 69082,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/staff-amit.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/img\/staff-conny.jpg" : {
       "ft" : 16384,
       "iS" : 155692,
