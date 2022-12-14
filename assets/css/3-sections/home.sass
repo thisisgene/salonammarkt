@@ -13,12 +13,12 @@
     display: none
     @media(orientation: landscape)
       position: relative
-    display: block
-    display: none
+      display: block
+      display: none
 
-    text-align: center
-    padding: 1rem
-    
+      text-align: center
+      padding: 1rem
+
   .cookie-text
     max-width: 65vw
     @media(max-width: 800px)
@@ -31,7 +31,7 @@
       background: rgba(white, .7)
       cursor: pointer
       transition: 200ms all ease-in-out
-      
+
       &--ok
         border-top-left-radius: 8px
         border-bottom-left-radius: 8px
@@ -42,7 +42,7 @@
       &--info
         border-top-right-radius: 8px
         border-bottom-right-radius: 8px
-  
+
 section#home
   background: white
   height: 100vh
@@ -67,8 +67,8 @@ section#home
           li
 
             font-size: .9rem
-            
-          margin-top: 0
+
+            margin-top: 0
       .arrow-down
         // position: static !important
         // margin-top: 1rem
@@ -98,8 +98,7 @@ section#home
     justify-content: center
     align-items: center
     transition: all 200ms ease-in-out
-    
-    
+
     .logo
       width: 80vw
       margin: 0 auto
@@ -115,7 +114,6 @@ section#home
           width: 90%
           height: 10vw
           //transition: all 200ms ease-in-out
-
 
     .menu-wrapper
       display: flex
@@ -204,15 +202,13 @@ section#home
           &.li-sep
             margin: 0 .2rem
 
-
           &.li-item
             margin: 0 1rem
-
-
-
-          &.li-booking
+          &.li-coupon
+            margin-left: 1.5rem
+          &.li-booking, &.li-coupon
             margin-right: 0
-            .timify-button
+            .timify-button, .coupon-button
               color: #111
               background: #fff
               padding: .4rem .6rem
@@ -251,6 +247,10 @@ section#home
             margin-top: .8rem !important
             margin-left: 0 !important
 
+          .li-coupon
+            margin-top: 1.8rem !important
+            margin-left: 0 !important
+
           &.lang-menu
             flex-direction: row
             text-align: center
@@ -273,8 +273,6 @@ section#home
       transform: translateY(0px)
       flex-direction: row
 
-
-
   @media(max-width: 980px)
     &.minified
       .home-wrapper
@@ -295,14 +293,11 @@ section#home
           background: rgba(white, .8)
           align-self: flex-start
 
-
           img
             margin: .3rem 0
             box-sizing: border-box
             width: 90%
             height: 10vw
-
-
 
   @media(min-width: 981px)
     &.dir-change
@@ -327,7 +322,6 @@ section#home
 
     &.minified
 
-
       .home-wrapper
         z-index: 100
         top: 0
@@ -337,15 +331,17 @@ section#home
 
         .logo
 
-          @media(max-width: 1000px) and (min-width: 981px)
+          @media(max-width: 1090px) and (min-width: 981px)
             margin: 0 3rem
+          @media(max-width: 1050px) and (min-width: 981px)
+            margin: 0 1rem
 
           img
             width: 100%
 
         .menu-wrapper
           margin-right: 1rem
-          
+
           .link-menu
             .timify-button
               background: #FFDDBA
@@ -380,7 +376,6 @@ section#home
 
           @media(min-width: 981px)
 
-
             transition: all 200ms ease-in-out
             opacity: .5
             //cursor: pointer
@@ -389,4 +384,3 @@ section#home
               border: 2px solid rgba(black, 1)
 
               opacity: .8
-

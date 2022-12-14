@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700");
 html, body {
   margin: 0;
   padding: 0;
@@ -77,14 +77,14 @@ section {
   display: none; }
   @media (max-width: 800px) {
     .cookie-alert {
-      display: none;
+      display: none; } }
+  @media (max-width: 800px) and (orientation: landscape) {
+    .cookie-alert {
+      position: relative;
       display: block;
       display: none;
       text-align: center;
       padding: 1rem; } }
-  @media (max-width: 800px) and (orientation: landscape) {
-    .cookie-alert {
-      position: relative; } }
   .cookie-alert .cookie-text {
     max-width: 65vw; }
     @media (max-width: 800px) {
@@ -127,10 +127,9 @@ section#home {
       padding: 1rem 1rem 6rem; }
       section#home .home-background .home-wrapper .logo {
         width: 60vw; }
-      section#home .home-background .home-wrapper .menu-wrapper {
-        margin-top: 0; }
-        section#home .home-background .home-wrapper .menu-wrapper li {
-          font-size: .9rem; } }
+      section#home .home-background .home-wrapper .menu-wrapper li {
+        font-size: .9rem;
+        margin-top: 0; } }
   section#home .mobile-menu {
     display: none; }
   section#home .home-background {
@@ -247,15 +246,17 @@ section#home {
             margin: 0 .2rem; }
           section#home .home-wrapper .menu-wrapper ul li.li-item {
             margin: 0 1rem; }
-          section#home .home-wrapper .menu-wrapper ul li.li-booking {
+          section#home .home-wrapper .menu-wrapper ul li.li-coupon {
+            margin-left: 1.5rem; }
+          section#home .home-wrapper .menu-wrapper ul li.li-booking, section#home .home-wrapper .menu-wrapper ul li.li-coupon {
             margin-right: 0; }
-            section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button {
+            section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button, section#home .home-wrapper .menu-wrapper ul li.li-booking .coupon-button, section#home .home-wrapper .menu-wrapper ul li.li-coupon .timify-button, section#home .home-wrapper .menu-wrapper ul li.li-coupon .coupon-button {
               color: #111;
               background: #fff;
               padding: .4rem .6rem;
               border-radius: 6px;
               box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4); }
-              section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button:hover {
+              section#home .home-wrapper .menu-wrapper ul li.li-booking .timify-button:hover, section#home .home-wrapper .menu-wrapper ul li.li-booking .coupon-button:hover, section#home .home-wrapper .menu-wrapper ul li.li-coupon .timify-button:hover, section#home .home-wrapper .menu-wrapper ul li.li-coupon .coupon-button:hover {
                 box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
                 color: #fff;
                 background: #8EC683; }
@@ -281,6 +282,9 @@ section#home {
             font-size: 1.3rem; }
             section#home .home-wrapper .menu-wrapper ul .li-booking {
               margin-top: .8rem !important;
+              margin-left: 0 !important; }
+            section#home .home-wrapper .menu-wrapper ul .li-coupon {
+              margin-top: 1.8rem !important;
               margin-left: 0 !important; }
             section#home .home-wrapper .menu-wrapper ul.lang-menu {
               flex-direction: row;
@@ -334,9 +338,12 @@ section#home {
       top: 0;
       left: 0;
       animation: minify 600ms ease-in-out; } }
-  @media (min-width: 981px) and (max-width: 1000px) and (min-width: 981px) {
+  @media (min-width: 981px) and (max-width: 1090px) and (min-width: 981px) {
     section#home.minified .home-wrapper .logo {
       margin: 0 3rem; } }
+  @media (min-width: 981px) and (max-width: 1050px) and (min-width: 981px) {
+    section#home.minified .home-wrapper .logo {
+      margin: 0 1rem; } }
   @media (min-width: 981px) {
       section#home.minified .home-wrapper .logo img {
         width: 100%; }
@@ -501,26 +508,27 @@ section#service {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 440px;
+    max-width: 800px;
     margin: 0 auto; }
     section#service .service-container .service-wrapper {
-      width: 220px; }
+      padding: 0 2rem; }
       section#service .service-container .service-wrapper__left {
-        text-align: left;
-        border-right: 1px solid rgba(170, 170, 170, 0.2);
-        width: 45%; }
+        text-align: center;
+        border-right: 1px dotted #666666;
+        width: 50%; }
       section#service .service-container .service-wrapper__right {
-        text-align: right;
-        width: 55%;
-        padding-left: 2rem; }
+        text-align: center;
+        width: 50%; }
       section#service .service-container .service-wrapper ul {
         list-style: none;
         padding: 0; }
         section#service .service-container .service-wrapper ul li {
           margin: 0; }
-          section#service .service-container .service-wrapper ul li.li-header {
-            font-weight: 500;
-            margin-top: 1rem; }
+          section#service .service-container .service-wrapper ul li.li-header p {
+            color: #555;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1rem 0 .3rem; }
           section#service .service-container .service-wrapper ul li.li-content {
             font-weight: 300; }
           section#service .service-container .service-wrapper ul li p {
@@ -534,13 +542,12 @@ section#service {
         display: block;
         width: 100%; }
         section#service .service-container .service-wrapper {
+          padding: 0;
           margin: 0 auto;
           text-align: center; }
           section#service .service-container .service-wrapper__left {
-            border-right: none;
-            width: 50%; }
+            border-right: none; }
           section#service .service-container .service-wrapper__right {
-            width: 50%;
             padding-left: 0; } }
 section#jobs {
   padding-top: 0 !important; }
