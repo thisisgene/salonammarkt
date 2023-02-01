@@ -843,6 +843,14 @@
       "oF" : 0,
       "oS" : 0
     },
+    "\/.dccache" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/.dccache",
+      "oF" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
