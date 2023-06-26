@@ -47,6 +47,14 @@
       "oF" : 1,
       "oS" : 0
     },
+    "\/_includes\/dist\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/_includes\/dist\/about.html",
+      "oF" : 0
+    },
     "\/_includes\/en\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -905,6 +913,14 @@
       "oAP" : "\/.jekyll-cache\/Jekyll\/Cache",
       "oF" : 0
     },
+    "\/.vscode\/settings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.vscode\/settings-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/assets\/css\/1-base\/main.sass" : {
       "aP" : 0,
       "bl" : 0,
@@ -1148,6 +1164,123 @@
       "opt" : 0,
       "plM" : 3758088159,
       "prP" : 0
+    },
+    "\/assets\/img\/gallery\/new\/salon00.jpg" : {
+      "ft" : 16384,
+      "iS" : 113193,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon00.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon01.jpg" : {
+      "ft" : 16384,
+      "iS" : 228573,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon02.jpg" : {
+      "ft" : 16384,
+      "iS" : 192665,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon03.jpg" : {
+      "ft" : 16384,
+      "iS" : 140147,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon04.jpg" : {
+      "ft" : 16384,
+      "iS" : 187384,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon04.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon05.jpg" : {
+      "ft" : 16384,
+      "iS" : 147374,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon05.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon06.jpg" : {
+      "ft" : 16384,
+      "iS" : 1371672,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon06.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon07.jpg" : {
+      "ft" : 16384,
+      "iS" : 158739,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon07.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/img\/gallery\/new\/salon08.jpg" : {
+      "ft" : 16384,
+      "iS" : 1074786,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/img\/gallery\/new\/salon08.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/img\/gallery\/salon01.jpg" : {
       "ft" : 16384,

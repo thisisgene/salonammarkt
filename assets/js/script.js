@@ -4,7 +4,7 @@ var lastScrollTop = 0
 var scrollDirection
 var clickToActivate
 
-var imgCount = 5
+var imgCount = 10
 var currentSlide = 1
 var slideInterval = 3000
 var stopShow = false
