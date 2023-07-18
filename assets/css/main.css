@@ -290,6 +290,13 @@ section#home {
               flex-direction: row;
               text-align: center;
               margin: 0 auto; } }
+  section#home .partner-wrapper {
+    margin-top: 1rem;
+    text-align: center; }
+    section#home .partner-wrapper p {
+      margin: 0;
+      color: #666; }
+
 @keyframes minify {
   0% {
     opacity: 1;
@@ -622,6 +629,58 @@ section#contact .map-container {
       width: 100vw;
       padding-bottom: 56.25%;
       border: none; } }
+section#partner {
+  width: 100%;
+  text-align: center;
+  color: #555;
+  background: #FFDDBA; }
+  section#partner a {
+    color: #aaa;
+    text-decoration: none; }
+    section#partner a:hover {
+      color: #333; }
+  section#partner .partner-container {
+    max-width: 800px;
+    margin: 0 auto; }
+    section#partner .partner-container .service-wrapper {
+      padding: 0 2rem; }
+      section#partner .partner-container .service-wrapper__left {
+        text-align: center;
+        border-right: 1px dotted #666666;
+        width: 50%; }
+      section#partner .partner-container .service-wrapper__right {
+        text-align: center;
+        width: 50%; }
+      section#partner .partner-container .service-wrapper ul {
+        list-style: none;
+        padding: 0; }
+        section#partner .partner-container .service-wrapper ul li {
+          margin: 0; }
+          section#partner .partner-container .service-wrapper ul li.li-header p {
+            color: #555;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin: 1rem 0 .3rem; }
+          section#partner .partner-container .service-wrapper ul li.li-content {
+            font-weight: 300; }
+          section#partner .partner-container .service-wrapper ul li p {
+            margin: 0;
+            line-height: 1.2rem; }
+  @media (max-width: 600px) {
+    section#partner {
+      padding: 30px 1rem;
+      margin: 0 auto; }
+      section#partner .service-container {
+        display: block;
+        width: 100%; }
+        section#partner .service-container .service-wrapper {
+          padding: 0;
+          margin: 0 auto;
+          text-align: center; }
+          section#partner .service-container .service-wrapper__left {
+            border-right: none; }
+          section#partner .service-container .service-wrapper__right {
+            padding-left: 0; } }
 section#impressum {
   text-align: center;
   background: #111;
