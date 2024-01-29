@@ -17,28 +17,31 @@ section#service
     flex-direction: row
     align-items: center
     justify-content: center
-    width: 440px
+    max-width: 800px
     margin: 0 auto
     .service-wrapper
-      width: 220px
-
+      // width: 250px
+      padding: 0 2rem
       &__left
-        text-align: left
-        border-right: 1px solid rgba(#aaa, .2)
-        width: 45%
+        text-align: center
+        border-right: 1px dotted rgba(#666, 1)
+        width: 50%
       &__right
-        text-align: right
-        width: 55%
-        padding-left: 2rem
+        text-align: center
+        width: 50%
+
       ul
         list-style: none
         padding: 0
 
         li
           margin: 0
-          &.li-header
-            font-weight: 500
-            margin-top: 1rem
+          &.li-header p
+            color: #555
+            font:
+              size: 1.1rem
+              weight: 700
+            margin: 1rem 0 .3rem
           &.li-content
             font-weight: 300
 
@@ -55,12 +58,13 @@ section#service
       width: 100%
 
       .service-wrapper
+        padding: 0
         margin: 0 auto
         text-align: center
 
         &__left
           border-right: none
-          width: 50%
+          // width: 50%
         &__right
-          width: 50%
+          // width: 50%
           padding-left: 0
